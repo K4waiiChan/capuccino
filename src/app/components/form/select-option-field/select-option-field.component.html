@@ -1,0 +1,5 @@
+<mat-form-field>
+	<mat-select [placeholder]="placeholder"  [(value)]="selected" (change)="this.valueSelected.emit(this.selected)" disableRipple>
+    	<mat-option *ngFor="let option of options" value={{getValue(option)}}>{{option}}</mat-option>
+	</mat-select>
+</mat-form-field>

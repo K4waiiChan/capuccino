@@ -1,0 +1,5 @@
+mat-card {
+  margin: 0% 3% 0% 3%;
+  display: flex;
+  flex-direction: column;
+}
