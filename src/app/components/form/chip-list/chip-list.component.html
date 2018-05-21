@@ -1,0 +1,5 @@
+<mat-chip-list>
+  <mat-chip *ngFor="let element of elements" [removable]="true" (removed)="remove(element)">
+  	{{element.name}}<mat-icon matChipRemove *ngIf="true">cancel</mat-icon>
+  </mat-chip>
+</mat-chip-list>

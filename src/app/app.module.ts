@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { SelectOptionFieldComponent } from './components/form/select-option-field/select-option-field.component';
 import { ScheduleComponent } from './components/schedule/schedule.component';
 import { SchedulePlannerComponent } from './components/schedule-planner/schedule-planner.component';
+import { ChipListComponent } from './components/form/chip-list/chip-list.component';
 
 import {MatFormFieldModule} from '@angular/material/form-field';
 import {MatSelectModule} from '@angular/material/select';
@@ -15,6 +16,9 @@ import {MatListModule} from '@angular/material/list';
 import {MatDividerModule} from '@angular/material/divider';
 import {MatSidenavModule} from '@angular/material/sidenav';
 import {MatToolbarModule} from '@angular/material/toolbar';
+import {MatChipsModule} from '@angular/material/chips';
+import {MatIconModule} from '@angular/material/icon';
+
 
 
 
@@ -28,6 +32,7 @@ import {MatToolbarModule} from '@angular/material/toolbar';
     ScheduleComponent,
     SelectOptionFieldComponent,
     SchedulePlannerComponent,
+    ChipListComponent,
   ],
   imports: [
     BrowserModule,
@@ -39,7 +44,9 @@ import {MatToolbarModule} from '@angular/material/toolbar';
     MatListModule,
     MatDividerModule,
     MatSidenavModule,
-    MatToolbarModule
+    MatToolbarModule,
+    MatChipsModule,
+    MatIconModule
   ],
   providers: [],
   bootstrap: [AppComponent]
