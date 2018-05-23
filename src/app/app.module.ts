@@ -1,6 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
+import {HttpClientModule} from '@angular/common/http';
 
 import { AppComponent } from './app.component';
 import { SelectOptionFieldComponent } from './components/form/select-option-field/select-option-field.component';
@@ -19,12 +20,7 @@ import {MatToolbarModule} from '@angular/material/toolbar';
 import {MatChipsModule} from '@angular/material/chips';
 import {MatIconModule} from '@angular/material/icon';
 
-
-
-
-
-
-
+import {CareersService} from './services/careers.service';
 
 @NgModule({
   declarations: [
@@ -37,6 +33,7 @@ import {MatIconModule} from '@angular/material/icon';
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
+    HttpClientModule,
     MatFormFieldModule,
     MatSelectModule,
     MatCardModule,
@@ -48,7 +45,7 @@ import {MatIconModule} from '@angular/material/icon';
     MatChipsModule,
     MatIconModule
   ],
-  providers: [],
+  providers: [CareersService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
