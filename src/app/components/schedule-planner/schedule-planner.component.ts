@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { CareersService } from '../../services/careers.service';
 import { Career } from '../../models/career';
 import { Level } from '../../models/level';
+import { Mateer, NewMateer } from '../../models/mateer';
 
 @Component({
   selector: 'app-schedule-planner',
@@ -13,6 +14,8 @@ export class SchedulePlannerComponent implements OnInit {
   options = ['algo'];
   careers: Career[];
   levels: Level[];
+  mateers;
+  selectedMateers;
   constructor(private careersService: CareersService) {
   }
 
@@ -25,7 +28,25 @@ export class SchedulePlannerComponent implements OnInit {
   public getLevels(ev) {
     this.careersService.getCareer(ev).subscribe(response => {
       this.levels = response.niveles;
-      console.log(this.levels);
     });
+  }
+
+  public getMateers(ev) {
+    this.mateers = [];
+    let groups: any[];
+    let newName: string;
+    const mateers: Mateer[] = this.levels[ev - 1].materias;
+    for (const mateer of mateers) {
+      groups = mateer.grupos;
+      for (const gruop of groups) {
+        newName = mateer.nombre + ' ' + gruop.docente;
+        this.mateers.push({nombre : newName, codigo: mateer.codigo, horarios: gruop.horarios});
+      }
+    }
+  }
+  public getSelectedMateers(ev)
+  {
+    this.selectedMateers = ev;
+    console.log(this.selectedMateers);
   }
 }

@@ -3,7 +3,8 @@
     "nombre":"INGENIERIA ELECTRICA",
     "niveles":[
         {
-            "codigo":"A",
+            "nombre":"Nivel A",
+            "codigo":"1",
             "materias":[
                 {
                     "codigo":"2006018",
@@ -344,7 +345,8 @@
                 }]
         },
         {
-            "codigo":"B",
+            "nombre":"Nivel B",
+            "codigo":"2",
             "materias":[
                 {
                     "codigo":"2006020",
@@ -659,7 +661,8 @@
                 }]
         },
         {
-            "codigo":"C",
+            "nombre":"Nivel C",
+            "codigo":"3",
             "materias":[
                 {
                     "codigo":"2006019",
@@ -924,7 +927,8 @@
                 }]
         },
         {
-            "codigo":"D",
+            "nombre":"Nivel D",
+            "codigo":"4",
             "materias":[
                 {
                     "codigo":"2008157",
@@ -1196,7 +1200,8 @@
                 }]
         },
         {
-            "codigo":"E",
+            "nombre":"Nivel E",
+            "codigo":"5",
             "materias":[
                 {
                     "codigo":"2014007",
@@ -1397,7 +1402,8 @@
                 }]
         },
         {
-            "codigo":"F",
+            "nombre":"Nivel F",
+            "codigo":"6",
             "materias":[
                 {
                     "codigo":"2014011",
@@ -1664,7 +1670,8 @@
                 }]
         },
         {
-            "codigo":"G",
+            "nombre":"Nivel G",
+            "codigo":"7",
             "materias":[
                 {
                     "codigo":"2014015",
@@ -1809,7 +1816,8 @@
                 }]
         },
         {
-            "codigo":"H",
+            "nombre":"Nivel H",
+            "codigo":"8",
             "materias":[
                 {
                     "codigo":"2014020",
@@ -1987,7 +1995,8 @@
                 }]
         },
         {
-            "codigo":"I",
+            "nombre":"Nivel I",
+            "codigo":"9",
             "materias":[
                 {
                     "codigo":"2014026",
@@ -2269,7 +2278,8 @@
                 }]
         },
         {
-            "codigo":"J",
+            "nombre":"Nivel J",
+            "codigo":"10",
             "materias":[
                 {
                     "codigo":"2014031",

@@ -3,3 +3,6 @@ mat-card {
   display: flex;
   flex-direction: column;
 }
+mat-header-cell mat-cell  {
+	width: 14.3%;
+}

@@ -3,7 +3,8 @@
     "nombre":"DIDACTICA MATEMATICA",
     "niveles":[
         {
-            "codigo":"A",
+            "nombre":"Nivel A",
+            "codigo":"1",
             "materias":[
                 {
                     "codigo":"2002004",
@@ -169,7 +170,8 @@
                 }]
         },
         {
-            "codigo":"B",
+            "nombre":"Nivel B",
+            "codigo":"2",
             "materias":[
                 {
                     "codigo":"2006027",
@@ -266,7 +268,8 @@
                 }]
         },
         {
-            "codigo":"C",
+            "nombre":"Nivel C",
+            "codigo":"3",
             "materias":[
                 {
                     "codigo":"2008055",
@@ -413,7 +416,8 @@
                 }]
         },
         {
-            "codigo":"D",
+            "nombre":"Nivel D",
+            "codigo":"4",
             "materias":[
                 {
                     "codigo":"2008077",
@@ -527,7 +531,8 @@
                 }]
         },
         {
-            "codigo":"E",
+            "nombre":"Nivel E",
+            "codigo":"5",
             "materias":[
                 {
                     "codigo":"2008081",
@@ -586,7 +591,8 @@
                 }]
         },
         {
-            "codigo":"F",
+            "nombre":"Nivel F",
+            "codigo":"6",
             "materias":[
                 {
                     "codigo":"2008085",
@@ -614,7 +620,8 @@
                 }]
         },
         {
-            "codigo":"G",
+            "nombre":"Nivel G",
+            "codigo":"7",
             "materias":[
                 {
                     "codigo":"2008174",
@@ -707,7 +714,8 @@
                 }]
         },
         {
-            "codigo":"H",
+            "nombre":"Nivel H",
+            "codigo":"8",
             "materias":[
                 {
                     "codigo":"2008104",

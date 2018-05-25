@@ -2,6 +2,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import {HttpClientModule} from '@angular/common/http';
+import {FormsModule, ReactiveFormsModule} from '@angular/forms';
 
 import { AppComponent } from './app.component';
 import { SelectOptionFieldComponent } from './components/form/select-option-field/select-option-field.component';
@@ -21,6 +22,7 @@ import {MatChipsModule} from '@angular/material/chips';
 import {MatIconModule} from '@angular/material/icon';
 
 import {CareersService} from './services/careers.service';
+import { MultipleOptionSelectComponent } from './components/form/multiple-option-select/multiple-option-select.component';
 
 @NgModule({
   declarations: [
@@ -29,10 +31,12 @@ import {CareersService} from './services/careers.service';
     SelectOptionFieldComponent,
     SchedulePlannerComponent,
     ChipListComponent,
+    MultipleOptionSelectComponent,
   ],
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
+    FormsModule,
     HttpClientModule,
     MatFormFieldModule,
     MatSelectModule,
@@ -43,7 +47,8 @@ import {CareersService} from './services/careers.service';
     MatSidenavModule,
     MatToolbarModule,
     MatChipsModule,
-    MatIconModule
+    MatIconModule,
+    ReactiveFormsModule
   ],
   providers: [CareersService],
   bootstrap: [AppComponent]

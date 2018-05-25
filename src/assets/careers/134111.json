@@ -3,7 +3,8 @@
     "nombre":"INGENIERIA INFORMATICA",
     "niveles":[
         {
-            "codigo":"A",
+            "nombre":"Nivel A",
+            "codigo":"1",
             "materias":[
                 {
                     "codigo":"1803001",
@@ -465,7 +466,8 @@
                 }]
         },
         {
-            "codigo":"B",
+            "nombre":"Nivel B",
+            "codigo":"2",
             "materias":[
                 {
                     "codigo":"1803002",
@@ -828,7 +830,8 @@
                 }]
         },
         {
-            "codigo":"C",
+            "nombre":"Nivel C",
+            "codigo":"3",
             "materias":[
                 {
                     "codigo":"2008060",
@@ -1101,7 +1104,8 @@
                 }]
         },
         {
-            "codigo":"D",
+            "nombre":"Nivel D",
+            "codigo":"4",
             "materias":[
                 {
                     "codigo":"2008029",
@@ -1343,7 +1347,8 @@
                 }]
         },
         {
-            "codigo":"E",
+            "nombre":"Nivel E",
+            "codigo":"5",
             "materias":[
                 {
                     "codigo":"2010016",
@@ -1663,7 +1668,8 @@
                 }]
         },
         {
-            "codigo":"F",
+            "nombre":"Nivel F",
+            "codigo":"6",
             "materias":[
                 {
                     "codigo":"2010020",
@@ -1962,7 +1968,8 @@
                 }]
         },
         {
-            "codigo":"G",
+            "nombre":"Nivel G",
+            "codigo":"7",
             "materias":[
                 {
                     "codigo":"2010019",
@@ -2143,7 +2150,8 @@
                 }]
         },
         {
-            "codigo":"H",
+            "nombre":"Nivel H",
+            "codigo":"8",
             "materias":[
                 {
                     "codigo":"2010035",
@@ -2366,7 +2374,8 @@
                 }]
         },
         {
-            "codigo":"I",
+            "nombre":"Nivel A",
+            "codigo":"9",
             "materias":[
                 {
                     "codigo":"2010079",
@@ -2528,7 +2537,8 @@
                 }]
         },
         {
-            "codigo":"J",
+            "nombre":"Nivel J",
+            "codigo":"10",
             "materias":[
                 {
                     "codigo":"2010044",

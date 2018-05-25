@@ -1,5 +1,4 @@
 import { Component, OnInit, Input, Output, EventEmitter } from '@angular/core';
-import {Option} from '../../../models/option';
 
 @Component({
   selector: 'app-select-option-field',
@@ -7,7 +6,7 @@ import {Option} from '../../../models/option';
   styleUrls: ['./select-option-field.component.css']
 })
 export class SelectOptionFieldComponent implements OnInit {
-  @Input() options: Option[];
+  @Input() options: any[];
   @Input() placeholder: string;
   @Output() valueSelected = new EventEmitter;
   private selected: string;
