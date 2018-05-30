@@ -5,10 +5,15 @@ import { Component, OnInit, Input, Output, EventEmitter } from '@angular/core';
   templateUrl: './chip-list.component.html',
   styleUrls: ['./chip-list.component.css']
 })
-export class ChipListComponent implements OnInit {
-  @Input() elements: any[];
-  @Output() newElements = new EventEmitter;
 
+export class ChipListComponent implements OnInit {
+  @Input() word: string;
+  @Input() elements: any[];
+  @Input() removable: boolean;
+  @Input() selectable: boolean;
+  @Input() selected: boolean;
+  @Output() removedElement = new EventEmitter;
+  @Output() selectedElement = new EventEmitter;
   constructor() { }
 
   ngOnInit() {
@@ -16,10 +21,10 @@ export class ChipListComponent implements OnInit {
 
   remove(element: any): void {
     const index = this.elements.indexOf(element);
-
-    if (index >= 0) {
-      this.elements.splice(index, 1);
-      this.newElements.emit(this.elements);
-    }
+    this.elements.splice(index, 1);
+    this.removedElement.emit(this.elements);
+  }
+  select(element): void {
+    this.selectedElement.emit(element);
   }
 }

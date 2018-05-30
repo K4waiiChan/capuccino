@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { ScheduleFieldComponent } from './schedule-field.component';
+import { SelectionListComponent } from './selection-list.component';
 
-describe('ScheduleFieldComponent', () => {
-  let component: ScheduleFieldComponent;
-  let fixture: ComponentFixture<ScheduleFieldComponent>;
+describe('SelectionListComponent', () => {
+  let component: SelectionListComponent;
+  let fixture: ComponentFixture<SelectionListComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ ScheduleFieldComponent ]
+      declarations: [ SelectionListComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(ScheduleFieldComponent);
+    fixture = TestBed.createComponent(SelectionListComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

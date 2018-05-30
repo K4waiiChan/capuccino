@@ -9,6 +9,7 @@ import { SelectOptionFieldComponent } from './components/form/select-option-fiel
 import { ScheduleComponent } from './components/schedule/schedule.component';
 import { SchedulePlannerComponent } from './components/schedule-planner/schedule-planner.component';
 import { ChipListComponent } from './components/form/chip-list/chip-list.component';
+import { SelectionListComponent } from './components/form/selection-list/selection-list.component';
 
 import {MatFormFieldModule} from '@angular/material/form-field';
 import {MatSelectModule} from '@angular/material/select';
@@ -21,8 +22,8 @@ import {MatToolbarModule} from '@angular/material/toolbar';
 import {MatChipsModule} from '@angular/material/chips';
 import {MatIconModule} from '@angular/material/icon';
 
+
 import {CareersService} from './services/careers.service';
-import { MultipleOptionSelectComponent } from './components/form/multiple-option-select/multiple-option-select.component';
 
 @NgModule({
   declarations: [
@@ -31,7 +32,7 @@ import { MultipleOptionSelectComponent } from './components/form/multiple-option
     SelectOptionFieldComponent,
     SchedulePlannerComponent,
     ChipListComponent,
-    MultipleOptionSelectComponent,
+    SelectionListComponent,
   ],
   imports: [
     BrowserModule,
@@ -48,6 +49,7 @@ import { MultipleOptionSelectComponent } from './components/form/multiple-option
     MatToolbarModule,
     MatChipsModule,
     MatIconModule,
+
     ReactiveFormsModule
   ],
   providers: [CareersService],

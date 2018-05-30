@@ -1,6 +1,6 @@
 {
-    "codigo":"114071",
-    "nombre":"DIDACTICA MATEMATICA",
+    "codigo":"760101",
+    "nombre":"DIDACTICA DE LA FISICA",
     "niveles":[
         {
             "codigo":"A",
@@ -75,6 +75,72 @@
                         }]
                 },
                 {
+                    "codigo":"2008053",
+                    "nombre":"ALGEBRA I",
+                    "grupos":[
+                        {
+                            "codigo":"5",
+                            "docente":"CARRASCO CALVO ALVARO HERNANDO",
+                            "horarios":[
+                                {
+                                    "dia":"MA",
+                                    "hora":"1545",
+                                    "duracion":"2",
+                                    "aula":"625D",
+                                    "docente":"CARRASCO CALVO ALVARO HERNANDO"
+                                },
+                                {
+                                    "dia":"MI",
+                                    "hora":"945",
+                                    "duracion":"2",
+                                    "aula":"617C",
+                                    "docente":"CARRASCO CALVO ALVARO HERNANDO"
+                                },
+                                {
+                                    "dia":"VI",
+                                    "hora":"1715",
+                                    "duracion":"2",
+                                    "aula":"692G",
+                                    "docente":"PEREZ FERREL ROBERTO"
+                                }]
+                        }]
+                },
+                {
+                    "codigo":"2008054",
+                    "nombre":"CALCULO I",
+                    "grupos":[
+                        {
+                            "codigo":"3",
+                            "docente":"RELOS PACO SANTIAGO",
+                            "horarios":[
+                                {
+                                    "dia":"MA",
+                                    "hora":"645",
+                                    "duracion":"2",
+                                    "aula":"690D",
+                                    "docente":"ANCARI VILLCA SAUL"
+                                },
+                                {
+                                    "dia":"JU",
+                                    "hora":"1845",
+                                    "duracion":"2",
+                                    "aula":"692A",
+                                    "docente":""
+                                },
+                                {
+                                    "dia":"SA",
+                                    "hora":"1115",
+                                    "duracion":"2",
+                                    "aula":"624",
+                                    "docente":"RELOS PACO SANTIAGO"
+                                }]
+                        }]
+                }]
+        },
+        {
+            "codigo":"B",
+            "materias":[
+                {
                     "codigo":"2006018",
                     "nombre":"FISICA BASICA I",
                     "grupos":[
@@ -106,77 +172,205 @@
                         }]
                 },
                 {
-                    "codigo":"2008053",
-                    "nombre":"ALGEBRA I",
+                    "codigo":"2008010",
+                    "nombre":"GEOMETRIA ANALITICA",
                     "grupos":[
                         {
-                            "codigo":"5",
-                            "docente":"CARRASCO CALVO ALVARO HERNANDO",
-                            "horarios":[
-                                {
-                                    "dia":"MA",
-                                    "hora":"1545",
-                                    "duracion":"2",
-                                    "aula":"625D",
-                                    "docente":"CARRASCO CALVO ALVARO HERNANDO"
-                                },
-                                {
-                                    "dia":"MI",
-                                    "hora":"945",
-                                    "duracion":"2",
-                                    "aula":"617C",
-                                    "docente":""
-                                },
-                                {
-                                    "dia":"VI",
-                                    "hora":"1715",
-                                    "duracion":"2",
-                                    "aula":"692G",
-                                    "docente":"PEREZ FERREL ROBERTO"
-                                }]
-                        }]
-                },
-                {
-                    "codigo":"2008054",
-                    "nombre":"CALCULO I",
-                    "grupos":[
-                        {
-                            "codigo":"16",
-                            "docente":"ZEGARRA DORADO LUIS ROBERTO",
+                            "codigo":"1",
+                            "docente":"SORUCO MAITA JOSE ANTONIO",
                             "horarios":[
                                 {
                                     "dia":"LU",
-                                    "hora":"945",
+                                    "hora":"1545",
                                     "duracion":"2",
-                                    "aula":"644",
+                                    "aula":"617",
+                                    "docente":"SORUCO MAITA JOSE ANTONIO"
+                                },
+                                {
+                                    "dia":"MI",
+                                    "hora":"815",
+                                    "duracion":"2",
+                                    "aula":"617B",
                                     "docente":""
                                 },
                                 {
                                     "dia":"JU",
-                                    "hora":"815",
+                                    "hora":"1115",
                                     "duracion":"2",
-                                    "aula":"644A",
-                                    "docente":"ZEGARRA DORADO LUIS ROBERTO"
+                                    "aula":"691C",
+                                    "docente":"SORUCO MAITA JOSE ANTONIO"
+                                }]
+                        }]
+                },
+                {
+                    "codigo":"2008056",
+                    "nombre":"CALCULO II",
+                    "grupos":[
+                        {
+                            "codigo":"9",
+                            "docente":"CUPE CLEMENTE GUALBERTO",
+                            "horarios":[
+                                {
+                                    "dia":"LU",
+                                    "hora":"1115",
+                                    "duracion":"2",
+                                    "aula":"693B",
+                                    "docente":""
+                                },
+                                {
+                                    "dia":"JU",
+                                    "hora":"1415",
+                                    "duracion":"2",
+                                    "aula":"692A",
+                                    "docente":"CUPE CLEMENTE GUALBERTO"
                                 },
                                 {
                                     "dia":"SA",
                                     "hora":"815",
                                     "duracion":"2",
-                                    "aula":"617C",
-                                    "docente":"TOTORA VELIZ RAMIRO"
+                                    "aula":"691D",
+                                    "docente":"FLORES TABOADA DANNY ARIEL"
+                                }]
+                        }]
+                },
+                {
+                    "codigo":"2008240",
+                    "nombre":"ALGEBRA LINEAL Y MATRICIAL",
+                    "grupos":[
+                        {
+                            "codigo":"1",
+                            "docente":"SALINAS PERICON WALTER OSCAR",
+                            "horarios":[
+                                {
+                                    "dia":"LU",
+                                    "hora":"1715",
+                                    "duracion":"2",
+                                    "aula":"693C",
+                                    "docente":""
+                                },
+                                {
+                                    "dia":"MA",
+                                    "hora":"1715",
+                                    "duracion":"2",
+                                    "aula":"625C",
+                                    "docente":"SALINAS PERICON WALTER OSCAR"
+                                },
+                                {
+                                    "dia":"JU",
+                                    "hora":"1715",
+                                    "duracion":"2",
+                                    "aula":"691E",
+                                    "docente":"SALINAS PERICON WALTER OSCAR"
                                 }]
                         }]
                 }]
         },
         {
-            "codigo":"B",
+            "codigo":"C",
             "materias":[
                 {
-                    "codigo":"2006027",
-                    "nombre":"FISICA II",
+                    "codigo":"2006019",
+                    "nombre":"FISICA BASICA II",
+                    "grupos":[
+                        {
+                            "codigo":"3",
+                            "docente":"RUIZ UCUMARI IVAN",
+                            "horarios":[
+                                {
+                                    "dia":"LU",
+                                    "hora":"645",
+                                    "duracion":"2",
+                                    "aula":"691E",
+                                    "docente":"RUIZ UCUMARI IVAN"
+                                },
+                                {
+                                    "dia":"JU",
+                                    "hora":"815",
+                                    "duracion":"2",
+                                    "aula":"691E",
+                                    "docente":"RUIZ UCUMARI IVAN"
+                                },
+                                {
+                                    "dia":"SA",
+                                    "hora":"645",
+                                    "duracion":"2",
+                                    "aula":"691D",
+                                    "docente":"RUIZ UCUMARI IVAN"
+                                }]
+                        }]
+                },
+                {
+                    "codigo":"2008014",
+                    "nombre":"ANALISIS VECTORIAL Y TENSORIAL",
                     "grupos":[
                         {
                             "codigo":"1",
+                            "docente":"CUPE CLEMENTE GUALBERTO",
+                            "horarios":[
+                                {
+                                    "dia":"MA",
+                                    "hora":"1415",
+                                    "duracion":"2",
+                                    "aula":"617",
+                                    "docente":"CUPE CLEMENTE GUALBERTO"
+                                },
+                                {
+                                    "dia":"MI",
+                                    "hora":"1545",
+                                    "duracion":"2",
+                                    "aula":"617",
+                                    "docente":""
+                                },
+                                {
+                                    "dia":"SA",
+                                    "hora":"945",
+                                    "duracion":"2",
+                                    "aula":"623",
+                                    "docente":"FLORES TABOADA DANNY ARIEL"
+                                }]
+                        }]
+                },
+                {
+                    "codigo":"2008058",
+                    "nombre":"ECUACIONES DIFERENCIALES",
+                    "grupos":[
+                        {
+                            "codigo":"1",
+                            "docente":"MULLER SANTA CRUZ HANS CRISTIAN",
+                            "horarios":[
+                                {
+                                    "dia":"LU",
+                                    "hora":"945",
+                                    "duracion":"2",
+                                    "aula":"607",
+                                    "docente":""
+                                },
+                                {
+                                    "dia":"MA",
+                                    "hora":"945",
+                                    "duracion":"2",
+                                    "aula":"692C",
+                                    "docente":"TOTORA VELIZ RAMIRO"
+                                },
+                                {
+                                    "dia":"MI",
+                                    "hora":"945",
+                                    "duracion":"2",
+                                    "aula":"607",
+                                    "docente":"MULLER SANTA CRUZ HANS CRISTIAN"
+                                }]
+                        }]
+                }]
+        },
+        {
+            "codigo":"D",
+            "materias":[
+                {
+                    "codigo":"2006020",
+                    "nombre":"FISICA BASICA III",
+                    "grupos":[
+                        {
+                            "codigo":"4",
                             "docente":"RUIZ UCUMARI IVAN",
                             "horarios":[
                                 {
@@ -203,325 +397,88 @@
                         }]
                 },
                 {
-                    "codigo":"2008056",
-                    "nombre":"CALCULO II",
+                    "codigo":"2006089",
+                    "nombre":"FISICA COMPUTACIONAL I",
                     "grupos":[
                         {
-                            "codigo":"3",
-                            "docente":"MARTINEZ MAIDA AMILCAR SAUL",
+                            "codigo":"1",
+                            "docente":"RUIZ UCUMARI IVAN",
+                            "horarios":[
+                                {
+                                    "dia":"LU",
+                                    "hora":"1715",
+                                    "duracion":"2",
+                                    "aula":"FISCOM",
+                                    "docente":"RUIZ UCUMARI IVAN"
+                                },
+                                {
+                                    "dia":"MA",
+                                    "hora":"815",
+                                    "duracion":"2",
+                                    "aula":"FISCOM",
+                                    "docente":"RUIZ UCUMARI IVAN"
+                                }]
+                        }]
+                },
+                {
+                    "codigo":"2008029",
+                    "nombre":"PROBABILIDAD Y ESTADISTICA",
+                    "grupos":[
+                        {
+                            "codigo":"2",
+                            "docente":"TRUJILLO ARANIBAR WILSON",
                             "horarios":[
                                 {
                                     "dia":"MA",
-                                    "hora":"1545",
+                                    "hora":"1715",
                                     "duracion":"2",
-                                    "aula":"625C",
-                                    "docente":"MARTINEZ MAIDA AMILCAR SAUL"
+                                    "aula":"692F",
+                                    "docente":"TRUJILLO ARANIBAR WILSON"
                                 },
                                 {
                                     "dia":"MI",
-                                    "hora":"1245",
+                                    "hora":"1545",
                                     "duracion":"2",
                                     "aula":"692F",
                                     "docente":""
                                 },
                                 {
-                                    "dia":"VI",
-                                    "hora":"1545",
-                                    "duracion":"2",
-                                    "aula":"693B",
-                                    "docente":"MARTINEZ MAIDA AMILCAR SAUL"
-                                }]
-                        }]
-                },
-                {
-                    "codigo":"2008070",
-                    "nombre":"GEOMETRIA",
-                    "grupos":[
-                        {
-                            "codigo":"1",
-                            "docente":"SORUCO MAITA JOSE ANTONIO",
-                            "horarios":[
-                                {
-                                    "dia":"LU",
-                                    "hora":"1545",
-                                    "duracion":"2",
-                                    "aula":"617",
-                                    "docente":""
-                                },
-                                {
-                                    "dia":"MI",
-                                    "hora":"815",
-                                    "duracion":"2",
-                                    "aula":"617B",
-                                    "docente":"SORUCO MAITA JOSE ANTONIO"
-                                },
-                                {
                                     "dia":"JU",
-                                    "hora":"1115",
+                                    "hora":"1545",
                                     "duracion":"2",
-                                    "aula":"691C",
-                                    "docente":"SORUCO MAITA JOSE ANTONIO"
-                                }]
-                        }]
-                }]
-        },
-        {
-            "codigo":"C",
-            "materias":[
-                {
-                    "codigo":"2008055",
-                    "nombre":"ALGEBRA LINEAL",
-                    "grupos":[
-                        {
-                            "codigo":"1",
-                            "docente":"SALINAS PERICON WALTER OSCAR",
-                            "horarios":[
-                                {
-                                    "dia":"LU",
-                                    "hora":"1715",
-                                    "duracion":"2",
-                                    "aula":"693C",
-                                    "docente":"SALINAS PERICON WALTER OSCAR"
-                                },
-                                {
-                                    "dia":"MA",
-                                    "hora":"1715",
-                                    "duracion":"2",
-                                    "aula":"625C",
-                                    "docente":"SALINAS PERICON WALTER OSCAR"
-                                },
-                                {
-                                    "dia":"JU",
-                                    "hora":"1715",
-                                    "duracion":"2",
-                                    "aula":"691E",
-                                    "docente":"SALINAS PERICON WALTER OSCAR"
+                                    "aula":"692F",
+                                    "docente":"TRUJILLO ARANIBAR WILSON"
                                 }]
                         }]
                 },
                 {
-                    "codigo":"2008075",
-                    "nombre":"ESTRUCTURAS DISCRETAS",
+                    "codigo":"2008156",
+                    "nombre":"CALCULO COMPLEJO",
                     "grupos":[
                         {
                             "codigo":"1",
-                            "docente":"JUCHANI BAZUALDO DEMETRIO",
-                            "horarios":[
-                                {
-                                    "dia":"LU",
-                                    "hora":"1545",
-                                    "duracion":"2",
-                                    "aula":"617C",
-                                    "docente":"JUCHANI BAZUALDO DEMETRIO"
-                                },
-                                {
-                                    "dia":"MI",
-                                    "hora":"1545",
-                                    "duracion":"2",
-                                    "aula":"617B",
-                                    "docente":""
-                                },
-                                {
-                                    "dia":"JU",
-                                    "hora":"815",
-                                    "duracion":"2",
-                                    "aula":"691B",
-                                    "docente":"JUCHANI BAZUALDO DEMETRIO"
-                                }]
-                        }]
-                },
-                {
-                    "codigo":"2008079",
-                    "nombre":"GEOMETRIA I",
-                    "grupos":[
-                        {
-                            "codigo":"1",
-                            "docente":"MARTINEZ MAIDA AMILCAR SAUL",
-                            "horarios":[
-                                {
-                                    "dia":"LU",
-                                    "hora":"1545",
-                                    "duracion":"2",
-                                    "aula":"617B",
-                                    "docente":""
-                                },
-                                {
-                                    "dia":"MI",
-                                    "hora":"1545",
-                                    "duracion":"2",
-                                    "aula":"652",
-                                    "docente":"MARTINEZ MAIDA AMILCAR SAUL"
-                                }]
-                        }]
-                },
-                {
-                    "codigo":"2010008",
-                    "nombre":"COMPUTACION I",
-                    "grupos":[
-                        {
-                            "codigo":"2",
-                            "docente":"VARGAS COLQUE AIDEE",
+                            "docente":"ROJAS ZURITA RAMIRO",
                             "horarios":[
                                 {
                                     "dia":"MA",
-                                    "hora":"1115",
-                                    "duracion":"2",
-                                    "aula":"691A",
-                                    "docente":"VARGAS COLQUE AIDEE"
-                                },
-                                {
-                                    "dia":"MI",
-                                    "hora":"1115",
-                                    "duracion":"2",
-                                    "aula":"642",
-                                    "docente":""
-                                },
-                                {
-                                    "dia":"SA",
-                                    "hora":"1115",
-                                    "duracion":"2",
-                                    "aula":"691B",
-                                    "docente":"SALVATIERRA HUANCA LUIS ALBERTO"
-                                }]
-                        },
-                        {
-                            "codigo":"4",
-                            "docente":"VARGAS COLQUE AIDEE",
-                            "horarios":[
-                                {
-                                    "dia":"LU",
-                                    "hora":"1845",
+                                    "hora":"645",
                                     "duracion":"2",
                                     "aula":"692A",
-                                    "docente":""
+                                    "docente":"ROJAS ZURITA RAMIRO"
                                 },
                                 {
-                                    "dia":"MA",
-                                    "hora":"1845",
-                                    "duracion":"2",
-                                    "aula":"625C",
-                                    "docente":"VARGAS COLQUE AIDEE"
-                                },
-                                {
-                                    "dia":"SA",
-                                    "hora":"1115",
-                                    "duracion":"2",
-                                    "aula":"691E",
-                                    "docente":"Por Designar ..."
-                                }]
-                        }]
-                }]
-        },
-        {
-            "codigo":"D",
-            "materias":[
-                {
-                    "codigo":"2008077",
-                    "nombre":"PROBABILIDAD Y ESTADISTICA I",
-                    "grupos":[
-                        {
-                            "codigo":"1",
-                            "docente":"SORUCO MAITA JOSE ANTONIO",
-                            "horarios":[
-                                {
-                                    "dia":"LU",
-                                    "hora":"1115",
-                                    "duracion":"2",
-                                    "aula":"642",
-                                    "docente":"JARA ARIAS EDWIN"
-                                },
-                                {
-                                    "dia":"MA",
-                                    "hora":"1545",
+                                    "dia":"MI",
+                                    "hora":"2015",
                                     "duracion":"2",
                                     "aula":"624",
-                                    "docente":"SORUCO MAITA JOSE ANTONIO"
-                                },
-                                {
-                                    "dia":"VI",
-                                    "hora":"1415",
-                                    "duracion":"2",
-                                    "aula":"617",
-                                    "docente":"SORUCO MAITA JOSE ANTONIO"
-                                }]
-                        }]
-                },
-                {
-                    "codigo":"2008078",
-                    "nombre":"TEORIA AXIOMATICA DE CONJUNTOS",
-                    "grupos":[
-                        {
-                            "codigo":"1",
-                            "docente":"GONZALES CASTELLON CARLOS ESTEBAN",
-                            "horarios":[
-                                {
-                                    "dia":"MA",
-                                    "hora":"1415",
-                                    "duracion":"2",
-                                    "aula":"MATDIR",
-                                    "docente":"GONZALES CASTELLON CARLOS ESTEBAN"
-                                },
-                                {
-                                    "dia":"MI",
-                                    "hora":"1415",
-                                    "duracion":"2",
-                                    "aula":"LABMAT",
-                                    "docente":"GONZALES CASTELLON CARLOS ESTEBAN"
-                                },
-                                {
-                                    "dia":"VI",
-                                    "hora":"1415",
-                                    "duracion":"2",
-                                    "aula":"LABMAT",
-                                    "docente":"GONZALES CASTELLON CARLOS ESTEBAN"
-                                }]
-                        }]
-                },
-                {
-                    "codigo":"2008080",
-                    "nombre":"ANALISIS I",
-                    "grupos":[
-                        {
-                            "codigo":"1",
-                            "docente":"RELOS PACO SANTIAGO",
-                            "horarios":[
-                                {
-                                    "dia":"LU",
-                                    "hora":"1845",
-                                    "duracion":"2",
-                                    "aula":"690B",
                                     "docente":""
                                 },
                                 {
-                                    "dia":"SA",
-                                    "hora":"945",
+                                    "dia":"JU",
+                                    "hora":"645",
                                     "duracion":"2",
-                                    "aula":"692A",
-                                    "docente":"RELOS PACO SANTIAGO"
-                                }]
-                        }]
-                },
-                {
-                    "codigo":"2008214",
-                    "nombre":"MATEMATICA COMPUTACIONAL II",
-                    "grupos":[
-                        {
-                            "codigo":"1",
-                            "docente":"RODRIGUEZ BILBAO ERIKA PATRICIA",
-                            "horarios":[
-                                {
-                                    "dia":"MA",
-                                    "hora":"1115",
-                                    "duracion":"2",
-                                    "aula":"CAE",
-                                    "docente":"RODRIGUEZ BILBAO ERIKA PATRICIA"
-                                },
-                                {
-                                    "dia":"VI",
-                                    "hora":"1115",
-                                    "duracion":"2",
-                                    "aula":"CAE",
-                                    "docente":"RODRIGUEZ BILBAO ERIKA PATRICIA"
+                                    "aula":"617C",
+                                    "docente":"ROJAS ZURITA RAMIRO"
                                 }]
                         }]
                 }]
@@ -530,39 +487,198 @@
             "codigo":"E",
             "materias":[
                 {
-                    "codigo":"2008081",
-                    "nombre":"PROBABILIDAD Y ESTADISTICA II",
+                    "codigo":"1801033",
+                    "nombre":"DIDACTICA GENERAL",
                     "grupos":[
                         {
                             "codigo":"1",
-                            "docente":"SORUCO MAITA JOSE ANTONIO",
+                            "docente":"ARANCIBIA GUZMAN MARCELO EDUARDO",
+                            "horarios":[
+                                {
+                                    "dia":"MA",
+                                    "hora":"1800",
+                                    "duracion":"2",
+                                    "aula":"3A",
+                                    "docente":""
+                                },
+                                {
+                                    "dia":"VI",
+                                    "hora":"1845",
+                                    "duracion":"2",
+                                    "aula":"3C",
+                                    "docente":"ARANCIBIA GUZMAN MARCELO EDUARDO"
+                                }]
+                        }]
+                },
+                {
+                    "codigo":"2006001",
+                    "nombre":"METODOS MATEMATICOS DE LA FISICA",
+                    "grupos":[
+                        {
+                            "codigo":"1",
+                            "docente":"LUCANO LUCANO MARCELO JAVIER",
                             "horarios":[
                                 {
                                     "dia":"LU",
                                     "hora":"1415",
                                     "duracion":"2",
-                                    "aula":"691C",
-                                    "docente":"SORUCO MAITA JOSE ANTONIO"
-                                },
-                                {
-                                    "dia":"MA",
-                                    "hora":"1545",
-                                    "duracion":"2",
-                                    "aula":"652",
-                                    "docente":"Por Designar ..."
+                                    "aula":"620B",
+                                    "docente":""
                                 },
                                 {
                                     "dia":"JU",
-                                    "hora":"1545",
+                                    "hora":"1415",
                                     "duracion":"2",
-                                    "aula":"644A",
-                                    "docente":"SORUCO MAITA JOSE ANTONIO"
+                                    "aula":"619",
+                                    "docente":"LUCANO LUCANO MARCELO JAVIER"
                                 }]
                         }]
                 },
                 {
-                    "codigo":"2008172",
-                    "nombre":"DIDACTICA DE LA CIENCIAS I",
+                    "codigo":"2006031",
+                    "nombre":"FISICA BASICA IV",
+                    "grupos":[
+                        {
+                            "codigo":"1",
+                            "docente":"VISCARRA VARGAS MARCO ANTONIO",
+                            "horarios":[
+                                {
+                                    "dia":"LU",
+                                    "hora":"815",
+                                    "duracion":"2",
+                                    "aula":"621A",
+                                    "docente":""
+                                },
+                                {
+                                    "dia":"LU",
+                                    "hora":"945",
+                                    "duracion":"2",
+                                    "aula":"619",
+                                    "docente":"VISCARRA VARGAS MARCO ANTONIO"
+                                },
+                                {
+                                    "dia":"MI",
+                                    "hora":"945",
+                                    "duracion":"2",
+                                    "aula":"619",
+                                    "docente":""
+                                },
+                                {
+                                    "dia":"JU",
+                                    "hora":"945",
+                                    "duracion":"2",
+                                    "aula":"619",
+                                    "docente":"VISCARRA VARGAS MARCO ANTONIO"
+                                }]
+                        }]
+                },
+                {
+                    "codigo":"2006034",
+                    "nombre":"ELECTRONICA",
+                    "grupos":[
+                        {
+                            "codigo":"1",
+                            "docente":"AGREDA CORRALES LUIS ROBERTO",
+                            "horarios":[
+                                {
+                                    "dia":"MA",
+                                    "hora":"1245",
+                                    "duracion":"2",
+                                    "aula":"619",
+                                    "docente":"AGREDA CORRALES LUIS ROBERTO"
+                                },
+                                {
+                                    "dia":"JU",
+                                    "hora":"1845",
+                                    "duracion":"2",
+                                    "aula":"620",
+                                    "docente":"AGREDA CORRALES LUIS ROBERTO"
+                                }]
+                        }]
+                }]
+        },
+        {
+            "codigo":"F",
+            "materias":[
+                {
+                    "codigo":"2006033",
+                    "nombre":"FISICA TEORICA I",
+                    "grupos":[
+                        {
+                            "codigo":"1",
+                            "docente":"FLORES FLORES FREDDY",
+                            "horarios":[
+                                {
+                                    "dia":"MA",
+                                    "hora":"945",
+                                    "duracion":"2",
+                                    "aula":"619",
+                                    "docente":"FLORES FLORES FREDDY"
+                                },
+                                {
+                                    "dia":"VI",
+                                    "hora":"1545",
+                                    "duracion":"2",
+                                    "aula":"619",
+                                    "docente":"FLORES FLORES FREDDY"
+                                }]
+                        }]
+                },
+                {
+                    "codigo":"2006037",
+                    "nombre":"TERMODINAMICA",
+                    "grupos":[
+                        {
+                            "codigo":"1",
+                            "docente":"VASQUEZ CARRILLO MICHAEL HUASCAR",
+                            "horarios":[
+                                {
+                                    "dia":"MA",
+                                    "hora":"645",
+                                    "duracion":"2",
+                                    "aula":"619",
+                                    "docente":""
+                                },
+                                {
+                                    "dia":"JU",
+                                    "hora":"645",
+                                    "duracion":"2",
+                                    "aula":"619",
+                                    "docente":"VASQUEZ CARRILLO MICHAEL HUASCAR"
+                                }]
+                        }]
+                }]
+        },
+        {
+            "codigo":"G",
+            "materias":[
+                {
+                    "codigo":"2006040",
+                    "nombre":"MECANICA CUANTICA I",
+                    "grupos":[
+                        {
+                            "codigo":"1",
+                            "docente":"ROJAS SALINAS HUGO",
+                            "horarios":[
+                                {
+                                    "dia":"MI",
+                                    "hora":"1245",
+                                    "duracion":"2",
+                                    "aula":"619",
+                                    "docente":"ROJAS SALINAS HUGO"
+                                },
+                                {
+                                    "dia":"JU",
+                                    "hora":"1245",
+                                    "duracion":"2",
+                                    "aula":"619",
+                                    "docente":"ROJAS SALINAS HUGO"
+                                }]
+                        }]
+                },
+                {
+                    "codigo":"2006077",
+                    "nombre":"DIDACTICA ESPECIAL",
                     "grupos":[
                         {
                             "codigo":"1",
@@ -586,150 +702,22 @@
                 }]
         },
         {
-            "codigo":"F",
-            "materias":[
-                {
-                    "codigo":"2008085",
-                    "nombre":"ALGEBRA ABSTRACTA I",
-                    "grupos":[
-                        {
-                            "codigo":"1",
-                            "docente":"ZEGARRA DORADO LUIS ROBERTO",
-                            "horarios":[
-                                {
-                                    "dia":"MA",
-                                    "hora":"1545",
-                                    "duracion":"2",
-                                    "aula":"LABMAT",
-                                    "docente":"ZEGARRA DORADO LUIS ROBERTO"
-                                },
-                                {
-                                    "dia":"MI",
-                                    "hora":"1545",
-                                    "duracion":"2",
-                                    "aula":"LABMAT",
-                                    "docente":"ZEGARRA DORADO LUIS ROBERTO"
-                                }]
-                        }]
-                }]
-        },
-        {
-            "codigo":"G",
-            "materias":[
-                {
-                    "codigo":"2008174",
-                    "nombre":"DIDACTICA DE LA CIENCIAS III",
-                    "grupos":[
-                        {
-                            "codigo":"1",
-                            "docente":"FERRUFINO RODRIGUEZ NELSON",
-                            "horarios":[
-                                {
-                                    "dia":"MA",
-                                    "hora":"1715",
-                                    "duracion":"2",
-                                    "aula":"LABMAT",
-                                    "docente":"FERRUFINO RODRIGUEZ NELSON"
-                                },
-                                {
-                                    "dia":"JU",
-                                    "hora":"815",
-                                    "duracion":"2",
-                                    "aula":"LABMAT",
-                                    "docente":""
-                                }]
-                        }]
-                },
-                {
-                    "codigo":"2008175",
-                    "nombre":"APLICACIONES DIDACTICAS I",
-                    "grupos":[
-                        {
-                            "codigo":"1",
-                            "docente":"ZEGARRA DORADO LUIS ROBERTO",
-                            "horarios":[
-                                {
-                                    "dia":"MA",
-                                    "hora":"1415",
-                                    "duracion":"2",
-                                    "aula":"690C",
-                                    "docente":"ZEGARRA DORADO LUIS ROBERTO"
-                                },
-                                {
-                                    "dia":"VI",
-                                    "hora":"1545",
-                                    "duracion":"2",
-                                    "aula":"LABMAT",
-                                    "docente":"ZEGARRA DORADO LUIS ROBERTO"
-                                }]
-                        }]
-                },
-                {
-                    "codigo":"2008176",
-                    "nombre":"APLICACIONES DIDACTICAS II",
-                    "grupos":[
-                        {
-                            "codigo":"1",
-                            "docente":"MULLER SANTA CRUZ HANS CRISTIAN",
-                            "horarios":[
-                                {
-                                    "dia":"SA",
-                                    "hora":"945",
-                                    "duracion":"2",
-                                    "aula":"LABMAT",
-                                    "docente":"MULLER SANTA CRUZ HANS CRISTIAN"
-                                }]
-                        }]
-                },
-                {
-                    "codigo":"2008177",
-                    "nombre":"INVESTIGACION DIDACTICA",
-                    "grupos":[
-                        {
-                            "codigo":"1",
-                            "docente":"FERRUFINO RODRIGUEZ NELSON",
-                            "horarios":[
-                                {
-                                    "dia":"LU",
-                                    "hora":"945",
-                                    "duracion":"2",
-                                    "aula":"LABMAT",
-                                    "docente":"FERRUFINO RODRIGUEZ NELSON"
-                                },
-                                {
-                                    "dia":"JU",
-                                    "hora":"945",
-                                    "duracion":"2",
-                                    "aula":"LABMAT",
-                                    "docente":"FERRUFINO RODRIGUEZ NELSON"
-                                }]
-                        }]
-                }]
-        },
-        {
             "codigo":"H",
             "materias":[
                 {
-                    "codigo":"2008104",
+                    "codigo":"2006003",
                     "nombre":"TRABAJO DE GRADO",
                     "grupos":[
                         {
                             "codigo":"1",
-                            "docente":"CUPE CLEMENTE GUALBERTO",
+                            "docente":"TORREZ PELAEZ RAUL WILDER",
                             "horarios":[
                                 {
-                                    "dia":"JU",
-                                    "hora":"1715",
-                                    "duracion":"2",
-                                    "aula":"LABMAT",
-                                    "docente":"CUPE CLEMENTE GUALBERTO"
-                                },
-                                {
                                     "dia":"VI",
-                                    "hora":"1115",
+                                    "hora":"945",
                                     "duracion":"2",
-                                    "aula":"LABMAT",
-                                    "docente":"CUPE CLEMENTE GUALBERTO"
+                                    "aula":"FISDEP",
+                                    "docente":"TORREZ PELAEZ RAUL WILDER"
                                 }]
                         }]
                 }]

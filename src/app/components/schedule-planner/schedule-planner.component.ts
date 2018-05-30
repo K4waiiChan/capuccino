@@ -3,6 +3,7 @@ import { CareersService } from '../../services/careers.service';
 import { Career } from '../../models/career';
 import { Level } from '../../models/level';
 import { Mateer, NewMateer } from '../../models/mateer';
+import { Schedule } from '../../models/schedule';
 
 @Component({
   selector: 'app-schedule-planner',
@@ -11,12 +12,20 @@ import { Mateer, NewMateer } from '../../models/mateer';
 })
 
 export class SchedulePlannerComponent implements OnInit {
-  options = ['algo'];
   careers: Career[];
   levels: Level[];
   mateers;
-  selectedMateers;
+  groups;
+  selectedGroups;
+  selectedMateer;
+  schedule;
+  scheduleSource;
+
   constructor(private careersService: CareersService) {
+    this.selectedGroups = [];
+    this.schedule = new Schedule();
+    this.scheduleSource = this.schedule.getNewSchedule([]);
+
   }
 
   ngOnInit() {
@@ -26,27 +35,24 @@ export class SchedulePlannerComponent implements OnInit {
   }
 
   public getLevels(ev) {
-    this.careersService.getCareer(ev).subscribe(response => {
+    this.careersService.getCareer(ev.codigo).subscribe(response => {
       this.levels = response.niveles;
     });
   }
 
   public getMateers(ev) {
-    this.mateers = [];
-    let groups: any[];
-    let newName: string;
-    const mateers: Mateer[] = this.levels[ev - 1].materias;
-    for (const mateer of mateers) {
-      groups = mateer.grupos;
-      for (const gruop of groups) {
-        newName = mateer.nombre + ' ' + gruop.docente;
-        this.mateers.push({nombre : newName, codigo: mateer.codigo, horarios: gruop.horarios});
-      }
-    }
+    this.mateers = ev.materias;
   }
-  public getSelectedMateers(ev)
-  {
-    this.selectedMateers = ev;
-    console.log(this.selectedMateers);
+  public getSelectedMateer(ev) {
+    this.selectedMateer = ev;
+  }
+  public getGroups(ev) {
+    this.groups = ev.grupos;
+  }
+
+  public getSelectedGroups(ev) {
+    this.selectedGroups = ev;
+    console.log(ev);
+    this.scheduleSource = this.schedule.getNewSchedule(this.selectedGroups);
   }
 }

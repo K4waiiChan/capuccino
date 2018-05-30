@@ -1,0 +1,5 @@
+<mat-selection-list  [(ngModel)]="selected" (ngModelChange)="selectionChange($event)">
+  <mat-list-option *ngFor="let option of options" [value]="option" [selected]="isSelected(option)">
+    Grupo {{option.codigo}} ({{option.docente}})
+  </mat-list-option>
+</mat-selection-list>
