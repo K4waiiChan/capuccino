@@ -10,6 +10,8 @@
                     "nombre":"BIOLOGIA GENERAL",
                     "grupos":[
                         {
+                            "nombre":"BIOLOGIA GENERAL",
+                            "abreviacion":"BG",
                             "codigo":"1",
                             "docente":"ANTEZANA VALERA DE D. AMALIA",
                             "horarios":[
@@ -48,6 +50,8 @@
                     "nombre":"QUIMICA GENERAL",
                     "grupos":[
                         {
+                            "nombre":"QUIMICA GENERAL",
+                            "abreviacion":"QG",
                             "codigo":"3",
                             "docente":"VEGA ALFARO WILFREDO",
                             "horarios":[
@@ -79,6 +83,8 @@
                     "nombre":"FISICA BASICA I",
                     "grupos":[
                         {
+                            "nombre":"FISICA BASICA I",
+                            "abreviacion":"FIS1",
                             "codigo":"9",
                             "docente":"TORRICO TROCHE MILKA MONICA",
                             "horarios":[
@@ -110,6 +116,8 @@
                     "nombre":"ALGEBRA I",
                     "grupos":[
                         {
+                            "nombre":"ALGEBRA I",
+                            "abreviacion":"ALG1",
                             "codigo":"5",
                             "docente":"CARRASCO CALVO ALVARO HERNANDO",
                             "horarios":[
@@ -141,6 +149,8 @@
                     "nombre":"CALCULO I",
                     "grupos":[
                         {
+                            "nombre":"CALCULO I",
+                            "abreviacion":"CAL1",
                             "codigo":"16",
                             "docente":"ZEGARRA DORADO LUIS ROBERTO",
                             "horarios":[
@@ -176,6 +186,8 @@
                     "nombre":"FISICA II",
                     "grupos":[
                         {
+                            "nombre":"FISICA II",
+                            "abreviacion":"FIS2",
                             "codigo":"1",
                             "docente":"RUIZ UCUMARI IVAN",
                             "horarios":[
@@ -207,6 +219,8 @@
                     "nombre":"CALCULO II",
                     "grupos":[
                         {
+                            "nombre":"CALCULO II",
+                            "abreviacion":"CAL2",
                             "codigo":"3",
                             "docente":"MARTINEZ MAIDA AMILCAR SAUL",
                             "horarios":[
@@ -238,6 +252,8 @@
                     "nombre":"GEOMETRIA",
                     "grupos":[
                         {
+                            "nombre":"GEOMETRIA",
+                            "abreviacion":"GEO",
                             "codigo":"1",
                             "docente":"SORUCO MAITA JOSE ANTONIO",
                             "horarios":[
@@ -273,6 +289,8 @@
                     "nombre":"ALGEBRA LINEAL",
                     "grupos":[
                         {
+                            "nombre":"ALGEBRA LINEAL",
+                            "abreviacion":"AL",
                             "codigo":"1",
                             "docente":"SALINAS PERICON WALTER OSCAR",
                             "horarios":[
@@ -304,6 +322,8 @@
                     "nombre":"ESTRUCTURAS DISCRETAS",
                     "grupos":[
                         {
+                            "nombre":"ESTRUCTURAS DISCRETAS",
+                            "abreviacion":"ESDIS",
                             "codigo":"1",
                             "docente":"JUCHANI BAZUALDO DEMETRIO",
                             "horarios":[
@@ -335,6 +355,8 @@
                     "nombre":"GEOMETRIA I",
                     "grupos":[
                         {
+                            "nombre":"GEOMETRIA I",
+                            "abreviacion":"GEO1",
                             "codigo":"1",
                             "docente":"MARTINEZ MAIDA AMILCAR SAUL",
                             "horarios":[
@@ -359,6 +381,8 @@
                     "nombre":"COMPUTACION I",
                     "grupos":[
                         {
+                            "nombre":"COMPUTACION I",
+                            "abreviacion":"COMP1",
                             "codigo":"2",
                             "docente":"VARGAS COLQUE AIDEE",
                             "horarios":[
@@ -385,6 +409,8 @@
                                 }]
                         },
                         {
+                            "nombre":"COMPUTACION I",
+                            "abreviacion":"COMP1",
                             "codigo":"4",
                             "docente":"VARGAS COLQUE AIDEE",
                             "horarios":[
@@ -420,6 +446,8 @@
                     "nombre":"PROBABILIDAD Y ESTADISTICA I",
                     "grupos":[
                         {
+                            "nombre":"PROBABILIDAD Y ESTADISTICA I",
+                            "abreviacion":"PYE1",
                             "codigo":"1",
                             "docente":"SORUCO MAITA JOSE ANTONIO",
                             "horarios":[
@@ -451,6 +479,8 @@
                     "nombre":"TEORIA AXIOMATICA DE CONJUNTOS",
                     "grupos":[
                         {
+                            "nombre":"TEORIA AXIOMATICA DE CONJUNTOS",
+                            "abreviacion":"TAC",
                             "codigo":"1",
                             "docente":"GONZALES CASTELLON CARLOS ESTEBAN",
                             "horarios":[
@@ -482,6 +512,8 @@
                     "nombre":"ANALISIS I",
                     "grupos":[
                         {
+                            "nombre":"ANALISIS I",
+                            "abreviacion":"ANA1",
                             "codigo":"1",
                             "docente":"RELOS PACO SANTIAGO",
                             "horarios":[
@@ -506,6 +538,8 @@
                     "nombre":"MATEMATICA COMPUTACIONAL II",
                     "grupos":[
                         {
+                            "nombre":"MATEMATICA COMPUTACIONAL II",
+                            "abreviacion":"MATCOMP2",
                             "codigo":"1",
                             "docente":"RODRIGUEZ BILBAO ERIKA PATRICIA",
                             "horarios":[
@@ -534,6 +568,8 @@
                     "nombre":"PROBABILIDAD Y ESTADISTICA II",
                     "grupos":[
                         {
+                            "nombre":"PROBABILIDAD Y ESTADISTICA II",
+                            "abreviacion":"PYE2",
                             "codigo":"1",
                             "docente":"SORUCO MAITA JOSE ANTONIO",
                             "horarios":[
@@ -565,6 +601,8 @@
                     "nombre":"DIDACTICA DE LA CIENCIAS I",
                     "grupos":[
                         {
+                            "nombre":"DIDACTICA DE LA CIENCIAS I",
+                            "abreviacion":"DC1",
                             "codigo":"1",
                             "docente":"CASTRO LAZARTE CECILIA BEATRIZ",
                             "horarios":[
@@ -593,6 +631,8 @@
                     "nombre":"ALGEBRA ABSTRACTA I",
                     "grupos":[
                         {
+                            "nombre":"ALGEBRA ABSTRACTA I",
+                            "abreviacion":"ALAB1",
                             "codigo":"1",
                             "docente":"ZEGARRA DORADO LUIS ROBERTO",
                             "horarios":[
@@ -621,6 +661,8 @@
                     "nombre":"DIDACTICA DE LA CIENCIAS III",
                     "grupos":[
                         {
+                            "nombre":"DIDACTICA DE LA CIENCIAS III",
+                            "abreviacion":"DC3",
                             "codigo":"1",
                             "docente":"FERRUFINO RODRIGUEZ NELSON",
                             "horarios":[
@@ -645,6 +687,8 @@
                     "nombre":"APLICACIONES DIDACTICAS I",
                     "grupos":[
                         {
+                            "nombre":"APLICACIONES DIDACTICAS I",
+                            "abreviacion":"ADIC1",
                             "codigo":"1",
                             "docente":"ZEGARRA DORADO LUIS ROBERTO",
                             "horarios":[
@@ -669,6 +713,8 @@
                     "nombre":"APLICACIONES DIDACTICAS II",
                     "grupos":[
                         {
+                            "nombre":"APLICACIONES DIDACTICAS II",
+                            "abreviacion":"ADIC2",
                             "codigo":"1",
                             "docente":"MULLER SANTA CRUZ HANS CRISTIAN",
                             "horarios":[
@@ -686,6 +732,8 @@
                     "nombre":"INVESTIGACION DIDACTICA",
                     "grupos":[
                         {
+                            "nombre":"INVESTIGACION DIDACTICA",
+                            "abreviacion":"IDIC",
                             "codigo":"1",
                             "docente":"FERRUFINO RODRIGUEZ NELSON",
                             "horarios":[
@@ -714,6 +762,8 @@
                     "nombre":"TRABAJO DE GRADO",
                     "grupos":[
                         {
+                            "nombre":"TRABAJO DE GRADO",
+                            "abreviacion":"TESIS",
                             "codigo":"1",
                             "docente":"CUPE CLEMENTE GUALBERTO",
                             "horarios":[

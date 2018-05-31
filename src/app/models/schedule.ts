@@ -5,19 +5,8 @@ import { Group } from './group';
 export class Schedule {
   Rows: ScheduleRow[];
 
-  public Schedule() {
-    this.Rows = [
-      {hour: '6:45 - 8:15', monday: '', tuesday: '', wednesday: '', thursday: '', friday: '', saturday: ''},
-      {hour: '8:15 - 9:45', monday: '', tuesday: '', wednesday: '', thursday: '', friday: '', saturday: ''},
-      {hour: '9:45 - 11:15', monday: '', tuesday: '', wednesday: '', thursday: '', friday: '', saturday: ''},
-      {hour: '11:15 - 12:45', monday: '', tuesday: '', wednesday: '', thursday: '', friday: '', saturday: ''},
-      {hour: '12:45 - 14:15', monday: '', tuesday: '', wednesday: '', thursday: '', friday: '', saturday: ''},
-      {hour: '14:15 - 15:45', monday: '', tuesday: '', wednesday: '', thursday: '', friday: '', saturday: ''},
-      {hour: '15:45 - 17:15', monday: '', tuesday: '', wednesday: '', thursday: '', friday: '', saturday: ''},
-      {hour: '17:15 - 18:45', monday: '', tuesday: '', wednesday: '', thursday: '', friday: '', saturday: ''},
-      {hour: '18:45 - 20:15', monday: '', tuesday: '', wednesday: '', thursday: '', friday: '', saturday: ''},
-      {hour: '20:15 - 21:45', monday: '', tuesday: '', wednesday: '', thursday: '', friday: '', saturday: ''},
-      ];
+  public Schedule(rows) {
+    this.Rows = new Array();
   }
   public getNewSchedule(groups: Group[]) {
     let content: string;
