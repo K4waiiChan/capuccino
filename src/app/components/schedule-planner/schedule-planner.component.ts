@@ -17,7 +17,6 @@ export class SchedulePlannerComponent implements OnInit {
   mateers;
   groups;
   selectedGroups;
-  selectedMateer;
   schedule;
   scheduleSource;
 
@@ -29,6 +28,7 @@ export class SchedulePlannerComponent implements OnInit {
   ngOnInit() {
     this.careersService.getCareers().subscribe(response => {
       this.careers = response;
+
     });
   }
 
@@ -36,13 +36,13 @@ export class SchedulePlannerComponent implements OnInit {
     this.careersService.getCareer(ev.codigo).subscribe(response => {
       this.levels = response.niveles;
     });
+    this.mateers = null;
+    this.groups = [];
+    this.selectedGroups = [];
   }
 
   public getMateers(ev) {
     this.mateers = ev.materias;
-  }
-  public getSelectedMateer(ev) {
-    this.selectedMateer = ev;
   }
   public getGroups(ev) {
     this.groups = ev.grupos;

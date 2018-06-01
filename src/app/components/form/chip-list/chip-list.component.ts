@@ -12,6 +12,7 @@ export class ChipListComponent implements OnInit {
   @Input() removable: boolean;
   @Input() selectable: boolean;
   @Input() selected: boolean;
+  @Input() width: string;
   @Output() removedElement = new EventEmitter;
   @Output() selectedElement = new EventEmitter;
   constructor() { }

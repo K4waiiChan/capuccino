@@ -1,8 +1,8 @@
 <form>
   	<app-select-option-field [options]="careers" [placeholder]="'Carrera'" (valueSelected)="getLevels($event)"></app-select-option-field>
-  	<app-chip-list [elements]="levels" [removable]="false" [selectable]="true" [word]="'Nivel'" [selected]="true"  (selectedElement)="getMateers($event)" ></app-chip-list>
-  	<app-select-option-field [options]="mateers" [placeholder]="'Materias'" (valueSelected)="getGroups($event)" ></app-select-option-field>
+  	<app-chip-list *ngIf="levels" [elements]="levels" [removable]="false" [selectable]="true" [word]="'Nivel'" [selected]="true" [width]="'40%'" (selectedElement)="getMateers($event)" ></app-chip-list>
+  	<app-select-option-field *ngIf="mateers" [options]="mateers" [placeholder]="'Materias'" (valueSelected)="getGroups($event)" ></app-select-option-field>
   	<app-selection-list [options]="groups" [preselected]="selectedGroups" (valueSelected)="getSelectedGroups($event)"></app-selection-list><br>
-  	<app-chip-list [elements]="selectedGroups" [removable]="true" [selected]="false" [word]= "'Grupo'" (removedElement)="getSelectedGroups($event)"></app-chip-list>
+  	<app-chip-list [elements]="selectedGroups" [removable]="true" [selected]="false" [word]= "'Grupo'" [width]="'100%'" (removedElement)="getSelectedGroups($event)"></app-chip-list>
 </form>
 <app-schedule [dataSource]="schedule"></app-schedule>

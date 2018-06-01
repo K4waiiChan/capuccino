@@ -1,4 +1,4 @@
-<mat-chip-list>
+<mat-chip-list  [ngStyle]="{'width':width}" >
   <mat-chip *ngFor="let element of elements" color="accent" [removable]="removable" [selected]="selected" (removed)="remove(element)" (click)="select(element)">
   	{{element.nombre}} {{word}} {{element.codigo}}<mat-icon matChipRemove *ngIf="removable">cancel</mat-icon>
   </mat-chip>
