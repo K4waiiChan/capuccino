@@ -1,7 +1,25 @@
 table {
 	margin: auto;
 	width: 94%;
+	border: groove;
 }
+th.mat-header-cell{
+	text-align: center;
+	width: 14%;
+}
+.hourBody{
+	text-align: left;
+}
+.hourHeader.mat-header-cell.cdk-column-hour.mat-column-hour.ng-star-inserted{
+	text-align: left;
+}
+td {
+	border: groove;
+	text-align: center;
+}
+th {
+	border: groove;
+}	
 @media only screen and (max-width: 600px) {
     table {
     	margin-top: 3%;

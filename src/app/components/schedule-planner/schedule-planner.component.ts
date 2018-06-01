@@ -43,6 +43,7 @@ export class SchedulePlannerComponent implements OnInit {
 
   public getMateers(ev) {
     this.mateers = ev.materias;
+    this.groups = [];
   }
   public getGroups(ev) {
     this.groups = ev.grupos;

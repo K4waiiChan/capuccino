@@ -10,6 +10,8 @@
                     "nombre":"INGLES I",
                     "grupos":[
                         {
+                            "nombre":"INGLES I",
+                            "abreviacion":"IN1",
                             "codigo":"1",
                             "docente":"CESPEDES GUIZADA MARIA BENITA",
                             "horarios":[
@@ -29,6 +31,8 @@
                                 }]
                         },
                         {
+                            "nombre":"INGLES I",
+                            "abreviacion":"IN1",
                             "codigo":"2",
                             "docente":"CESPEDES GUIZADA MARIA BENITA",
                             "horarios":[
@@ -48,6 +52,8 @@
                                 }]
                         },
                         {
+                            "nombre":"INGLES I",
+                            "abreviacion":"IN1",
                             "codigo":"3",
                             "docente":"PEETERS ILONAA MAGDA LENA",
                             "horarios":[
@@ -67,6 +73,8 @@
                                 }]
                         },
                         {
+                            "nombre":"INGLES I",
+                            "abreviacion":"IN1",
                             "codigo":"4",
                             "docente":"GRILO SALVATIERRA MARIA ESTELA",
                             "horarios":[
@@ -86,6 +94,8 @@
                                 }]
                         },
                         {
+                            "nombre":"INGLES I",
+                            "abreviacion":"IN1",
                             "codigo":"5",
                             "docente":"CESPEDES GUIZADA MARIA BENITA",
                             "horarios":[
@@ -110,6 +120,8 @@
                     "nombre":"FISICA GENERAL",
                     "grupos":[
                         {
+                            "nombre":"FISICA GENERAL",
+                            "abreviacion":"FG",
                             "codigo":"2",
                             "docente":"VALENZUELA MIRANDA ROBERTO",
                             "horarios":[
@@ -141,6 +153,8 @@
                     "nombre":"ALGEBRA I",
                     "grupos":[
                         {
+                            "nombre":"ALGEBRA I",
+                            "abreviacion":"ALG1",
                             "codigo":"10",
                             "docente":"RODRIGUEZ SEJAS JUAN ANTONIO",
                             "horarios":[
@@ -167,6 +181,8 @@
                                 }]
                         },
                         {
+                            "nombre":"ALGEBRA I",
+                            "abreviacion":"ALG1",
                             "codigo":"8",
                             "docente":"LEON ROMERO RUPERTO",
                             "horarios":[
@@ -198,6 +214,8 @@
                     "nombre":"CALCULO I",
                     "grupos":[
                         {
+                            "nombre":"CALCULO I",
+                            "abreviacion":"CAL1",
                             "codigo":"10",
                             "docente":"MARTINEZ MAIDA AMILCAR SAUL",
                             "horarios":[
@@ -224,6 +242,8 @@
                                 }]
                         },
                         {
+                            "nombre":"CALCULO I",
+                            "abreviacion":"CAL1",
                             "codigo":"11",
                             "docente":"ROJAS ZURITA RAMIRO",
                             "horarios":[
@@ -255,6 +275,8 @@
                     "nombre":"INTRODUCCION A LA PROGRAMACION",
                     "grupos":[
                         {
+                            "nombre":"INTRODUCCION A LA PROGRAMACION",
+                            "abreviacion":"INTPRO",
                             "codigo":"1",
                             "docente":"COSTAS JAUREGUI VLADIMIR ABEL",
                             "horarios":[
@@ -281,6 +303,8 @@
                                 }]
                         },
                         {
+                            "nombre":"INTRODUCCION A LA PROGRAMACION",
+                            "abreviacion":"INTPRO",
                             "codigo":"13",
                             "docente":"COSTAS JAUREGUI VLADIMIR ABEL",
                             "horarios":[
@@ -307,6 +331,8 @@
                                 }]
                         },
                         {
+                            "nombre":"INTRODUCCION A LA PROGRAMACION",
+                            "abreviacion":"INTPRO",
                             "codigo":"2",
                             "docente":"BLANCO COCA LETICIA",
                             "horarios":[
@@ -333,6 +359,8 @@
                                 }]
                         },
                         {
+                            "nombre":"INTRODUCCION A LA PROGRAMACION",
+                            "abreviacion":"INTPRO",
                             "codigo":"3",
                             "docente":"USTARIZ VARGAS HERNAN",
                             "horarios":[
@@ -359,6 +387,8 @@
                                 }]
                         },
                         {
+                            "nombre":"INTRODUCCION A LA PROGRAMACION",
+                            "abreviacion":"INTPRO",
                             "codigo":"4",
                             "docente":"VILLARROEL TAPIA HENRY FRANK",
                             "horarios":[
@@ -385,6 +415,8 @@
                                 }]
                         },
                         {
+                            "nombre":"INTRODUCCION A LA PROGRAMACION",
+                            "abreviacion":"INTPRO",
                             "codigo":"5",
                             "docente":"MONTANO QUIROGA VICTOR HUGO",
                             "horarios":[
@@ -411,6 +443,8 @@
                                 }]
                         },
                         {
+                            "nombre":"INTRODUCCION A LA PROGRAMACION",
+                            "abreviacion":"INTPRO",
                             "codigo":"6",
                             "docente":"SALAZAR SERRUDO CARLA",
                             "horarios":[
@@ -437,6 +471,8 @@
                                 }]
                         },
                         {
+                            "nombre":"INTRODUCCION A LA PROGRAMACION",
+                            "abreviacion":"INTPRO",
                             "codigo":"7",
                             "docente":"FLORES VILLARROEL CORINA",
                             "horarios":[
@@ -472,6 +508,8 @@
                     "nombre":"INGLES II",
                     "grupos":[
                         {
+                            "nombre":"INGLES II",
+                            "abreviacion":"IN2",
                             "codigo":"1",
                             "docente":"PEETERS ILONAA MAGDA LENA",
                             "horarios":[
@@ -491,6 +529,8 @@
                                 }]
                         },
                         {
+                            "nombre":"INGLES II",
+                            "abreviacion":"IN2",
                             "codigo":"2",
                             "docente":"PEETERS ILONAA MAGDA LENA",
                             "horarios":[
@@ -510,6 +550,8 @@
                                 }]
                         },
                         {
+                            "nombre":"INGLES II",
+                            "abreviacion":"IN2",
                             "codigo":"3",
                             "docente":"PEETERS ILONAA MAGDA LENA",
                             "horarios":[
@@ -534,6 +576,8 @@
                     "nombre":"ALGEBRA II",
                     "grupos":[
                         {
+                            "nombre":"ALGEBRA II",
+                            "abreviacion":"ALG2",
                             "codigo":"6",
                             "docente":"MEDINA GAMBOA JULIO",
                             "horarios":[
@@ -560,6 +604,8 @@
                                 }]
                         },
                         {
+                            "nombre":"ALGEBRA II",
+                            "abreviacion":"ALG2",
                             "codigo":"8",
                             "docente":"OMONTE OJALVO JOSE ROBERTO",
                             "horarios":[
@@ -591,6 +637,8 @@
                     "nombre":"CALCULO II",
                     "grupos":[
                         {
+                            "nombre":"CALCULO II",
+                            "abreviacion":"CAL2",
                             "codigo":"6",
                             "docente":"TERRAZAS LOBO JUAN",
                             "horarios":[
@@ -617,6 +665,8 @@
                                 }]
                         },
                         {
+                            "nombre":"CALCULO II",
+                            "abreviacion":"CAL2",
                             "codigo":"7",
                             "docente":"GUEVARA ROMERO JOSE CARLOS",
                             "horarios":[
@@ -669,6 +719,8 @@
                     "nombre":"ELEM. DE PROGRAMACION Y ESTRUC. DE DATOS",
                     "grupos":[
                         {
+                            "nombre":"ELEM. DE PROGRAMACION Y ESTRUC. DE DATOS",
+                            "abreviacion":"ELEM",
                             "codigo":"2",
                             "docente":"BLANCO COCA LETICIA",
                             "horarios":[
@@ -695,6 +747,8 @@
                                 }]
                         },
                         {
+                            "nombre":"ELEM. DE PROGRAMACION Y ESTRUC. DE DATOS",
+                            "abreviacion":"ELEM",
                             "codigo":"3",
                             "docente":"BLANCO COCA LETICIA",
                             "horarios":[
@@ -721,6 +775,8 @@
                                 }]
                         },
                         {
+                            "nombre":"ELEM. DE PROGRAMACION Y ESTRUC. DE DATOS",
+                            "abreviacion":"ELEM",
                             "codigo":"5",
                             "docente":"BLANCO COCA LETICIA",
                             "horarios":[
@@ -746,7 +802,9 @@
                                     "docente":"BLANCO COCA LETICIA"
                                 }]
                         },
-                        {
+                        {   
+                            "nombre":"ELEM. DE PROGRAMACION Y ESTRUC. DE DATOS",
+                            "abreviacion":"ELEM",
                             "codigo":"1",
                             "docente":"",
                             "horarios":[]
@@ -757,6 +815,8 @@
                     "nombre":"ARQUITECTURA DE COMPUTADORAS I",
                     "grupos":[
                         {
+                            "nombre":"ARQUITECTURA DE COMPUTADORAS I",
+                            "abreviacion":"ARQUI1",
                             "codigo":"1",
                             "docente":"ACHA PEREZ SAMUEL",
                             "horarios":[
@@ -776,6 +836,8 @@
                                 }]
                         },
                         {
+                            "nombre":"ARQUITECTURA DE COMPUTADORAS I",
+                            "abreviacion":"ARQUI1",
                             "codigo":"2",
                             "docente":"BLANCO COCA LETICIA",
                             "horarios":[
@@ -800,6 +862,8 @@
                     "nombre":"PROGRAMACION",
                     "grupos":[
                         {
+                            "nombre":"PROGRAMACION",
+                            "abreviacion":"PROGRA",
                             "codigo":"1",
                             "docente":"TORRICO BASCOPE ROSEMARY",
                             "horarios":[
@@ -835,6 +899,8 @@
                     "nombre":"CALCULO NUMERICO",
                     "grupos":[
                         {
+                            "nombre":"CALCULO NUMERICO",
+                            "abreviacion":"CALNUM",
                             "codigo":"2",
                             "docente":"JUCHANI BAZUALDO DEMETRIO",
                             "horarios":[
@@ -861,6 +927,8 @@
                                 }]
                         },
                         {
+                            "nombre":"CALCULO NUMERICO",
+                            "abreviacion":"CALNUM",
                             "codigo":"3",
                             "docente":"ZABALAGA MONTANO OSCAR A.",
                             "horarios":[
@@ -892,6 +960,8 @@
                     "nombre":"LOGICA",
                     "grupos":[
                         {
+                            "nombre":"LOGICA",
+                            "abreviacion":"LOGICA",
                             "codigo":"1",
                             "docente":"HOEPFNER REYNOLDS MAURICIO",
                             "horarios":[
@@ -923,6 +993,8 @@
                     "nombre":"ARQUITECTURA DE COMPUTADORAS II",
                     "grupos":[
                         {
+                            "nombre":"ARQUITECTURA DE COMPUTADORAS II",
+                            "abreviacion":"ARQUI2",
                             "codigo":"1",
                             "docente":"AGREDA CORRALES LUIS ROBERTO",
                             "horarios":[
@@ -942,6 +1014,8 @@
                                 }]
                         },
                         {
+                            "nombre":"ARQUITECTURA DE COMPUTADORAS II",
+                            "abreviacion":"ARQUI2",
                             "codigo":"2",
                             "docente":"AGREDA CORRALES LUIS ROBERTO",
                             "horarios":[
@@ -966,6 +1040,8 @@
                     "nombre":"TEORIA DE GRAFOS",
                     "grupos":[
                         {
+                            "nombre":"TEORIA DE GRAFOS",
+                            "abreviacion":"GRAFOS",
                             "codigo":"1",
                             "docente":"MONTOYA BURGOS YONY RICHARD",
                             "horarios":[
@@ -997,6 +1073,8 @@
                     "nombre":"ORGANIZACION Y METODOS",
                     "grupos":[
                         {
+                            "nombre":"ORGANIZACION Y METODOS",
+                            "abreviacion":"ORGA",
                             "codigo":"1",
                             "docente":"CAMACHO DEL CASTILLO INDIRA",
                             "horarios":[
@@ -1021,6 +1099,8 @@
                     "nombre":"METODOS Y TECNICAS DE PROGRAMACION",
                     "grupos":[
                         {
+                            "nombre":"METODOS Y TECNICAS DE PROGRAMACION",
+                            "abreviacion":"METODOS",
                             "codigo":"1",
                             "docente":"FLORES VILLARROEL CORINA",
                             "horarios":[
@@ -1047,6 +1127,8 @@
                                 }]
                         },
                         {
+                            "nombre":"METODOS Y TECNICAS DE PROGRAMACION",
+                            "abreviacion":"METODOS",
                             "codigo":"2",
                             "docente":"MANZUR SORIA CARLOS B.",
                             "horarios":[
@@ -1073,6 +1155,8 @@
                                 }]
                         },
                         {
+                            "nombre":"METODOS Y TECNICAS DE PROGRAMACION",
+                            "abreviacion":"METODOS",
                             "codigo":"5",
                             "docente":"MONTOYA BURGOS YONY RICHARD",
                             "horarios":[
@@ -1108,6 +1192,8 @@
                     "nombre":"PROBABILIDAD Y ESTADISTICA",
                     "grupos":[
                         {
+                            "nombre":"PROBABILIDAD Y ESTADISTICA",
+                            "abreviacion":"ESTA",
                             "codigo":"4",
                             "docente":"OMONTE OJALVO JOSE ROBERTO",
                             "horarios":[
@@ -1139,6 +1225,8 @@
                     "nombre":"TALLER DE PROGRAMACION EN BAJO NIVEL",
                     "grupos":[
                         {
+                            "nombre":"TALLER DE PROGRAMACION EN BAJO NIVEL",
+                            "abreviacion":"BAJON",
                             "codigo":"1",
                             "docente":"MONTECINOS CHOQUE MARCO ANTONIO",
                             "horarios":[
@@ -1170,6 +1258,8 @@
                     "nombre":"BASE DE DATOS I",
                     "grupos":[
                         {
+                            "nombre":"BASE DE DATOS I",
+                            "abreviacion":"BASE1",
                             "codigo":"1",
                             "docente":"SALAZAR ANAYA ROSEMARY",
                             "horarios":[
@@ -1196,6 +1286,8 @@
                                 }]
                         },
                         {
+                            "nombre":"BASE DE DATOS I",
+                            "abreviacion":"BASE1",
                             "codigo":"2",
                             "docente":"CALANCHA NAVIA BORIS",
                             "horarios":[
@@ -1227,6 +1319,8 @@
                     "nombre":"SISTEMAS DE INFORMACION I",
                     "grupos":[
                         {
+                            "nombre":"SISTEMAS DE INFORMACION I",
+                            "abreviacion":"SIS1",
                             "codigo":"1",
                             "docente":"SALAZAR SERRUDO CARLA",
                             "horarios":[
@@ -1253,6 +1347,8 @@
                                 }]
                         },
                         {
+                            "nombre":"SISTEMAS DE INFORMACION I",
+                            "abreviacion":"SIS1",
                             "codigo":"2",
                             "docente":"SALAZAR SERRUDO CARLA",
                             "horarios":[
@@ -1284,6 +1380,8 @@
                     "nombre":"PROGRAMACION FUNCIONAL",
                     "grupos":[
                         {
+                            "nombre":"PROGRAMACION FUNCIONAL",
+                            "abreviacion":"FUNCIONAL",
                             "codigo":"1",
                             "docente":"APARICIO YUJA TATIANA",
                             "horarios":[
@@ -1315,6 +1413,8 @@
                     "nombre":"ALGORITMOS AVANZADOS",
                     "grupos":[
                         {
+                            "nombre":"ALGORITMOS AVANZADOS",
+                            "abreviacion":"ALGOA",
                             "codigo":"1",
                             "docente":"BLANCO COCA LETICIA",
                             "horarios":[
@@ -1350,6 +1450,8 @@
                     "nombre":"BASE DE DATOS II",
                     "grupos":[
                         {
+                            "nombre":"BASE DE DATOS II",
+                            "abreviacion":"BASE2",
                             "codigo":"1",
                             "docente":"APARICIO YUJA TATIANA",
                             "horarios":[
@@ -1376,6 +1478,8 @@
                                 }]
                         },
                         {
+                            "nombre":"BASE DE DATOS II",
+                            "abreviacion":"BASE2",
                             "codigo":"2",
                             "docente":"APARICIO YUJA TATIANA",
                             "horarios":[
@@ -1407,6 +1511,8 @@
                     "nombre":"TALLER DE SISTEMAS OPERATIVOS",
                     "grupos":[
                         {
+                            "nombre":"TALLER DE SISTEMAS OPERATIVOS",
+                            "abreviacion":"TSO",
                             "codigo":"1",
                             "docente":"HERRERA ACEBEY JOHNNY",
                             "horarios":[
@@ -1433,6 +1539,8 @@
                                 }]
                         },
                         {
+                            "nombre":"TALLER DE SISTEMAS OPERATIVOS",
+                            "abreviacion":"TSO",   
                             "codigo":"2",
                             "docente":"ORELLANA ARAOZ JORGE WALTER",
                             "horarios":[
@@ -1459,6 +1567,8 @@
                                 }]
                         },
                         {
+                            "nombre":"TALLER DE SISTEMAS OPERATIVOS",
+                            "abreviacion":"TSO",
                             "codigo":"3",
                             "docente":"HERRERA ACEBEY JOHNNY",
                             "horarios":[
@@ -1490,6 +1600,8 @@
                     "nombre":"SISTEMAS DE INFORMACION II",
                     "grupos":[
                         {
+                            "nombre":"SISTEMAS DE INFORMACION II",
+                            "abreviacion":"SIS2",
                             "codigo":"1",
                             "docente":"FLORES SOLIZ JUAN MARCELO",
                             "horarios":[
@@ -1516,6 +1628,8 @@
                                 }]
                         },
                         {
+                            "nombre":"SISTEMAS DE INFORMACION II",
+                            "abreviacion":"SIS2",
                             "codigo":"2",
                             "docente":"JALDIN ROSALES K. ROLANDO",
                             "horarios":[
@@ -1547,6 +1661,8 @@
                     "nombre":"TEORIA DE AUTOMATAS Y LENG. FORMALES",
                     "grupos":[
                         {
+                            "nombre":"TEORIA DE AUTOMATAS Y LENG. FORMALES",
+                            "abreviacion":"AUTOMATAS",
                             "codigo":"1",
                             "docente":"MONTANO QUIROGA VICTOR HUGO",
                             "horarios":[
@@ -1578,6 +1694,8 @@
                     "nombre":"GRAFICACION POR COMPUTADORA",
                     "grupos":[
                         {
+                            "nombre":"GRAFICACION POR COMPUTADORA",
+                            "abreviacion":"GRAFICACION",
                             "codigo":"1",
                             "docente":"TORRICO BASCOPE ROSEMARY",
                             "horarios":[
@@ -1609,6 +1727,8 @@
                     "nombre":"INTELIGENCIA ARTIFICIAL I",
                     "grupos":[
                         {
+                            "nombre":"INTELIGENCIA ARTIFICIAL I",
+                            "abreviacion":"IA1",
                             "codigo":"1",
                             "docente":"GARCIA PEREZ CARMEN ROSA",
                             "horarios":[
@@ -1635,6 +1755,8 @@
                                 }]
                         },
                         {
+                            "nombre":"INTELIGENCIA ARTIFICIAL I",
+                            "abreviacion":"IA1",
                             "codigo":"2",
                             "docente":"RODRIGUEZ BILBAO ERIKA PATRICIA",
                             "horarios":[
@@ -1670,6 +1792,8 @@
                     "nombre":"INGENIERIA DE SOFTWARE",
                     "grupos":[
                         {
+                            "nombre":"INGENIERIA DE SOFTWARE",
+                            "abreviacion":"INGSOF",
                             "codigo":"1",
                             "docente":"CAMACHO DEL CASTILLO INDIRA",
                             "horarios":[
@@ -1696,6 +1820,8 @@
                                 }]
                         },
                         {
+                            "nombre":"INGENIERIA DE SOFTWARE",
+                            "abreviacion":"INGSOF",
                             "codigo":"2",
                             "docente":"TORRICO BASCOPE ROSEMARY",
                             "horarios":[
@@ -1727,6 +1853,8 @@
                     "nombre":"REDES DE COMPUTADORAS",
                     "grupos":[
                         {
+                            "nombre":"REDES DE COMPUTADORAS",
+                            "abreviacion":"REDES",
                             "codigo":"1",
                             "docente":"HERRERA ACEBEY JOHNNY",
                             "horarios":[
@@ -1753,6 +1881,8 @@
                                 }]
                         },
                         {
+                            "nombre":"REDES DE COMPUTADORAS",
+                            "abreviacion":"REDES",
                             "codigo":"2",
                             "docente":"ORELLANA ARAOZ JORGE WALTER",
                             "horarios":[
@@ -1784,6 +1914,8 @@
                     "nombre":"ESTRUCTURA Y SEMANTICA DE LENGUAJES DE",
                     "grupos":[
                         {
+                            "nombre":"ESTRUCTURA Y SEMANTICA DE LENGUAJES DE",
+                            "abreviacion":"ESDLP",
                             "codigo":"1",
                             "docente":"ROMERO RODRIGUEZ PATRICIA",
                             "horarios":[
@@ -1815,6 +1947,8 @@
                     "nombre":"TALLER DE BASE DE DATOS",
                     "grupos":[
                         {
+                            "nombre":"TALLER DE BASE DE DATOSL",
+                            "abreviacion":"TBD",
                             "codigo":"1",
                             "docente":"CALANCHA NAVIA BORIS",
                             "horarios":[
@@ -1834,6 +1968,8 @@
                                 }]
                         },
                         {
+                            "nombre":"TALLER DE BASE DE DATOSL",
+                            "abreviacion":"TBD",
                             "codigo":"2",
                             "docente":"CALANCHA NAVIA BORIS",
                             "horarios":[
@@ -1853,6 +1989,8 @@
                                 }]
                         },
                         {
+                            "nombre":"TALLER DE BASE DE DATOSL",
+                            "abreviacion":"TBD",
                             "codigo":"3",
                             "docente":"FLORES SOLIZ JUAN MARCELO",
                             "horarios":[
@@ -1877,6 +2015,8 @@
                     "nombre":"INTELIGENCIA ARTIFICIAL II",
                     "grupos":[
                         {
+                            "nombre":"INTELIGENCIA ARTIFICIAL II",
+                            "abreviacion":"IA2",
                             "codigo":"1",
                             "docente":"AYOROA CARDOZO JOSE RICHARD",
                             "horarios":[
@@ -1903,6 +2043,8 @@
                                 }]
                         },
                         {
+                            "nombre":"INTELIGENCIA ARTIFICIAL II",
+                            "abreviacion":"IA2",
                             "codigo":"2",
                             "docente":"GARCIA PEREZ CARMEN ROSA",
                             "horarios":[
@@ -1934,6 +2076,8 @@
                     "nombre":"PROGRAMACION WEB",
                     "grupos":[
                         {
+                            "nombre":"PROGRAMACION WEB",
+                            "abreviacion":"WEB",
                             "codigo":"1",
                             "docente":"COSTAS JAUREGUI VLADIMIR ABEL",
                             "horarios":[
@@ -1969,6 +2113,8 @@
                     "nombre":"SIMULACION DE SISTEMAS",
                     "grupos":[
                         {
+                            "nombre":"SIMULACION DE SISTEMAS",
+                            "abreviacion":"SIMUSIS",
                             "codigo":"1",
                             "docente":"VILLARROEL TAPIA HENRY FRANK",
                             "horarios":[
@@ -1993,6 +2139,8 @@
                     "nombre":"TALLER DE INGENIERIA DE SOFTWARE",
                     "grupos":[
                         {
+                            "nombre":"TALLER DE INGENIERIA DE SOFTWARE",
+                            "abreviacion":"TIS",
                             "codigo":"1",
                             "docente":"FLORES VILLARROEL CORINA",
                             "horarios":[
@@ -2012,6 +2160,8 @@
                                 }]
                         },
                         {
+                            "nombre":"TALLER DE INGENIERIA DE SOFTWARE",
+                            "abreviacion":"TIS",
                             "codigo":"2",
                             "docente":"BLANCO COCA LETICIA",
                             "horarios":[
@@ -2036,6 +2186,8 @@
                     "nombre":"DATA WAREHOUSE",
                     "grupos":[
                         {
+                            "nombre":"DATA WAREHOUSE",
+                            "abreviacion":"DATAW",
                             "codigo":"1",
                             "docente":"CALANCHA NAVIA BORIS",
                             "horarios":[
@@ -2060,6 +2212,8 @@
                     "nombre":"ARQUITECTURA DE SOFTWARE",
                     "grupos":[
                         {
+                            "nombre":"ARQUITECTURA DE SOFTWARE",
+                            "abreviacion":"ARQUISOFT",
                             "codigo":"1",
                             "docente":"AZERO ALCOCER PABLO",
                             "horarios":[
@@ -2091,6 +2245,8 @@
                     "nombre":"INTERACCION HUMANO COMPUTADOR",
                     "grupos":[
                         {
+                            "nombre":"INTERACCION HUMANO COMPUTADOR",
+                            "abreviacion":"IHC",
                             "codigo":"1",
                             "docente":"FLORES VILLARROEL CORINA",
                             "horarios":[
@@ -2115,6 +2271,8 @@
                     "nombre":"TECNOLOGIA REDES AVANZADAS",
                     "grupos":[
                         {
+                            "nombre":"TECNOLOGIA REDES AVANZADAS",
+                            "abreviacion":"TRA",
                             "codigo":"1",
                             "docente":"MONTECINOS CHOQUE MARCO ANTONIO",
                             "horarios":[
@@ -2150,6 +2308,8 @@
                     "nombre":"APLICACION DE SISTEMAS OPERATIVOS",
                     "grupos":[
                         {
+                            "nombre":"APLICACION DE SISTEMAS OPERATIVOS",
+                            "abreviacion":"ASO",
                             "codigo":"1",
                             "docente":"CUSSI NICOLAS GROVER HUMBERTO",
                             "horarios":[
@@ -2169,6 +2329,8 @@
                                 }]
                         },
                         {
+                            "nombre":"APLICACION DE SISTEMAS OPERATIVOS",
+                            "abreviacion":"ASO",
                             "codigo":"2",
                             "docente":"CUSSI NICOLAS GROVER HUMBERTO",
                             "horarios":[
@@ -2193,6 +2355,8 @@
                     "nombre":"EVALUACION Y AUDITORIA DE SISTEMAS",
                     "grupos":[
                         {
+                            "nombre":"EVALUACION Y AUDITORIA DE SISTEMASL",
+                            "abreviacion":"AUDISIS",
                             "codigo":"1",
                             "docente":"ROMERO RODRIGUEZ PATRICIA",
                             "horarios":[
@@ -2219,6 +2383,8 @@
                                 }]
                         },
                         {
+                            "nombre":"EVALUACION Y AUDITORIA DE SISTEMASL",
+                            "abreviacion":"AUDISIS",
                             "codigo":"2",
                             "docente":"VILLARROEL NOVILLO JIMMY",
                             "horarios":[
@@ -2250,6 +2416,8 @@
                     "nombre":"TALLER DE GRADO",
                     "grupos":[
                         {
+                            "nombre":"TALLER DE GRADO",
+                            "abreviacion":"TDG",
                             "codigo":"6",
                             "docente":"FLORES VILLARROEL CORINA",
                             "horarios":[
@@ -2276,6 +2444,8 @@
                                 }]
                         },
                         {
+                            "nombre":"TALLER DE GRADO",
+                            "abreviacion":"TDG",
                             "codigo":"7",
                             "docente":"ROMERO RODRIGUEZ PATRICIA",
                             "horarios":[
@@ -2307,6 +2477,8 @@
                     "nombre":"CONTABILIDAD BASICA",
                     "grupos":[
                         {
+                            "nombre":"CONTABILIDAD BASICA",
+                            "abreviacion":"CONTBAS",
                             "codigo":"3",
                             "docente":"ARANIBAR LA FUENTE LIGIA",
                             "horarios":[
@@ -2338,6 +2510,8 @@
                     "nombre":"PLANIFICACION Y EVALUACION DE PROYECTOS",
                     "grupos":[
                         {
+                            "nombre":"PLANIFICACION Y EVALUACION DE PROYECTOS",
+                            "abreviacion":"PEP",
                             "codigo":"2",
                             "docente":"VARGAS ANTEZANA ADEMAR MARCELO",
                             "horarios":[
@@ -2373,6 +2547,8 @@
                     "nombre":"WEB SEMANTICAS",
                     "grupos":[
                         {
+                            "nombre":"WEB SEMANTICAS",
+                            "abreviacion":"WEBSEM",
                             "codigo":"1",
                             "docente":"RODRIGUEZ BILBAO ERIKA PATRICIA",
                             "horarios":[
@@ -2397,6 +2573,8 @@
                     "nombre":"PROGRAMACION MOVIL",
                     "grupos":[
                         {
+                            "nombre":"PROGRAMACION MOVIL",
+                            "abreviacion":"PMOVIL",
                             "codigo":"1",
                             "docente":"FIORILO LOZADA AMERICO",
                             "horarios":[
@@ -2421,6 +2599,8 @@
                     "nombre":"TELEFONIA IP",
                     "grupos":[
                         {
+                            "nombre":"TELEFONIA IP",
+                            "abreviacion":"TELIP",
                             "codigo":"1",
                             "docente":"MONTOYA BURGOS YONY RICHARD",
                             "horarios":[
@@ -2445,6 +2625,8 @@
                     "nombre":"APLICACIONES WEB AVANZADAS",
                     "grupos":[
                         {
+                            "nombre":"APLICACIONES WEB AVANZADAS",
+                            "abreviacion":"WEBAVAN",
                             "codigo":"1",
                             "docente":"VILLARROEL NOVILLO JIMMY",
                             "horarios":[
@@ -2469,6 +2651,8 @@
                     "nombre":"MODALIDAD DE TITULACION",
                     "grupos":[
                         {
+                            "nombre":"MODALIDAD DE TITULACION",
+                            "abreviacion":"MDT",
                             "codigo":"2",
                             "docente":"MONTANO QUIROGA VICTOR HUGO",
                             "horarios":[
@@ -2488,6 +2672,8 @@
                                 }]
                         },
                         {
+                            "nombre":"MODALIDAD DE TITULACION",
+                            "abreviacion":"MDT",
                             "codigo":"3",
                             "docente":"GARCIA PEREZ CARMEN ROSA",
                             "horarios":[
@@ -2507,6 +2693,8 @@
                                 }]
                         },
                         {
+                            "nombre":"MODALIDAD DE TITULACION",
+                            "abreviacion":"MDT",
                             "codigo":"4",
                             "docente":"GARCIA PEREZ CARMEN ROSA",
                             "horarios":[
@@ -2535,6 +2723,8 @@
                     "nombre":"DISE¥O DE COMPILADORES",
                     "grupos":[
                         {
+                            "nombre":"DISE¥O DE COMPILADORES",
+                            "abreviacion":"COMPILADORES",
                             "codigo":"1",
                             "docente":"AZERO ALCOCER PABLO",
                             "horarios":[
@@ -2559,6 +2749,8 @@
                     "nombre":"ROBOTICA",
                     "grupos":[
                         {
+                            "nombre":"ROBOTICA",
+                            "abreviacion":"ROBO",
                             "codigo":"1",
                             "docente":"GARCIA PEREZ CARMEN ROSA",
                             "horarios":[

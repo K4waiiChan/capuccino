@@ -1,8 +1,8 @@
 
   <table mat-table #table [dataSource]="dataSource" class="mat-elevation-z8">
     <ng-container matColumnDef="hour">
-      <th mat-header-cell *matHeaderCellDef> Hora/Dia </th>
-       <td mat-cell *matCellDef="let element"> {{element.hour}} </td>
+      <th class="hourHeader" mat-header-cell *matHeaderCellDef> Hora/Dia </th>
+       <td class="hourBody" mat-cell *matCellDef="let element"> {{element.hour}} </td>
     </ng-container>
 
     <ng-container matColumnDef="monday">
