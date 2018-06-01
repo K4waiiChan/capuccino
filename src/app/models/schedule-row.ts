@@ -1,9 +1,9 @@
 export class ScheduleRow {
-  hour: string;
-  monday: string;
-  tuesday: string;
-  wednesday: string;
-  thursday: string;
-  friday: string;
-  saturday: string;
+  hour: Array<string>;
+  monday: Array<string>;
+  tuesday: Array<string>;
+  wednesday: Array<string>;
+  thursday: Array<string>;
+  friday: Array<string>;
+  saturday: Array<string>;
 }

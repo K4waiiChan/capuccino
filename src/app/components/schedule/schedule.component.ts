@@ -17,4 +17,9 @@ export class ScheduleComponent implements OnInit {
 
   ngOnInit() {
   }
+  public overlap(elements: Array<any>) {
+    if (elements.length > 1) {
+      return '#ffd740';
+    }
+  }
 }
