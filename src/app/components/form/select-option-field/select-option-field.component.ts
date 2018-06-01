@@ -9,7 +9,7 @@ export class SelectOptionFieldComponent implements OnInit {
   @Input() options: any[];
   @Input() placeholder: string;
   @Output() valueSelected = new EventEmitter;
-  selected: any;
+  private selected: any;
 
   constructor() { }
   ngOnInit() {

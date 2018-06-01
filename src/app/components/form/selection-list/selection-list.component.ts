@@ -9,7 +9,7 @@ export class SelectionListComponent implements OnInit {
   @Input() options: any[];
   @Input() preselected: any[];
   @Output() valueSelected = new EventEmitter;
-  selected;
+  private selected;
 
   constructor() { }
 

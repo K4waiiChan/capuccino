@@ -6,6 +6,7 @@ table {
 th.mat-header-cell{
 	text-align: center;
 	width: 14%;
+	font-size: 100%;
 }
 .hourBody{
 	text-align: left;
