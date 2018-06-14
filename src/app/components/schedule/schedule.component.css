@@ -19,7 +19,7 @@ td {
 	text-align: center;
 }
 th {
-	border: groove;
+	border: groove; 
 }	
 @media only screen and (max-width: 600px) {
     table {

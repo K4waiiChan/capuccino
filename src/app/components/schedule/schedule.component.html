@@ -7,32 +7,32 @@
 
     <ng-container matColumnDef="monday">
       <th mat-header-cell *matHeaderCellDef> Lunes </th>
-       <td [ngStyle]="{'background':overlap(element.monday)}" mat-cell *matCellDef="let element"><a *ngFor="let field of element.monday">{{field}}<br></a></td>
+       <td [ngStyle]="{'background':getBackground(element.monday)}" mat-cell *matCellDef="let element"><a *ngFor="let field of element.monday">{{field.description}}<br></a></td>
     </ng-container>
 
     <ng-container matColumnDef="tuesday">
       <th mat-header-cell *matHeaderCellDef> Martes </th>
-       <td [ngStyle]="{'background':overlap(element.tuesday)}" mat-cell *matCellDef="let element"> <a *ngFor="let field of element.tuesday">{{field}}<br></a> </td>
+       <td [ngStyle]="{'background':getBackground(element.tuesday)}" mat-cell *matCellDef="let element"> <a *ngFor="let field of element.tuesday">{{field.description}}<br></a> </td>
     </ng-container>
 
     <ng-container matColumnDef="wednesday">
       <th mat-header-cell *matHeaderCellDef> Miercoles </th>
-       <td [ngStyle]="{'background':overlap(element.thursday)}" mat-cell *matCellDef="let element"> <a *ngFor="let field of element.thursday">{{field}}<br></a> </td>
+       <td [ngStyle]="{'background':getBackground(element.thursday)}" mat-cell *matCellDef="let element"> <a *ngFor="let field of element.thursday">{{field.description}}<br></a> </td>
     </ng-container>
 
     <ng-container matColumnDef="thursday">
       <th mat-header-cell *matHeaderCellDef> Jueves </th>
-       <td [ngStyle]="{'background':overlap(element.wednesday)}" mat-cell *matCellDef="let element"> <a *ngFor="let field of element.wednesday">{{field}}<br></a> </td>
+       <td [ngStyle]="{'background':getBackground(element.wednesday)}" mat-cell *matCellDef="let element"> <a *ngFor="let field of element.wednesday">{{field.description}}<br></a> </td>
     </ng-container>
 
     <ng-container matColumnDef="friday">
       <th mat-header-cell *matHeaderCellDef> Vienes </th>
-       <td [ngStyle]="{'background':overlap(element.friday)}" mat-cell *matCellDef="let element"> <a *ngFor="let field of element.friday">{{field}}<br></a> </td>
+       <td [ngStyle]="{'background':getBackground(element.friday)}" mat-cell *matCellDef="let element"> <a *ngFor="let field of element.friday">{{field.description}}<br></a> </td>
     </ng-container>
 
     <ng-container matColumnDef="saturday">
       <th mat-header-cell *matHeaderCellDef> Sabado </th>
-       <td [ngStyle]="{'background':overlap(element.saturday)}" mat-cell *matCellDef="let element"> <a *ngFor="let field of element.saturday">{{field}}<br></a> </td>
+       <td [ngStyle]="{'background':getBackground(element.saturday)}" mat-cell *matCellDef="let element"> <a *ngFor="let field of element.saturday">{{field.description}}<br></a> </td>
     </ng-container>
 
     <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>

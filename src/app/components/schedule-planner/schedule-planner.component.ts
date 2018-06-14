@@ -54,11 +54,11 @@ export class SchedulePlannerComponent implements OnInit {
     this.getNewSchedule();
   }
   public getNewSchedule() {
-    let content: string;
+    let content: any;
     this.cleanSchedule();
     for (const group of this.selectedGroups) {
       for (const schedule of group.horarios) {
-        content = group.abreviacion + ' (' + schedule.aula + ')';
+        content = { description : group.abreviacion + ' (' + schedule.aula + ')', index: this.selectedGroups.indexOf(group) };
         this.setContentField(schedule.hora, schedule.dia, content);
       }
     }
