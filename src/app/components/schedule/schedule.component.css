@@ -9,18 +9,19 @@ th.mat-header-cell{
 	font-size: 100%;
 	border: groove;
 }
-.hourBody{
-	text-align: left;
+td.mat-cell:last-child, td.mat-footer-cell:last-child, th.mat-header-cell:last-child
+{
+	padding: 0;
 }
-.hourHeader.mat-header-cell.cdk-column-hour.mat-column-hour.ng-star-inserted{
-	text-align: left;
+td.mat-cell:first-child, td.mat-footer-cell:first-child, th.mat-header-cell:first-child{
+	padding: 0;
 }
 td.mat-cell{
 	border: groove;
 	text-align: center;
 	border-bottom-style: groove;
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 420px) {
     table {
     	display: none;
     	margin-top: 3%;

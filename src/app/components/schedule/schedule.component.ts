@@ -9,7 +9,7 @@ import { Component, OnInit, Input } from '@angular/core';
 export class ScheduleComponent implements OnInit {
   @Input() groups;
   @Input() dataSource;
-  private displayedColumns: string[];
+  displayedColumns: string[];
 
   constructor() {
     this.displayedColumns = ['hour', 'monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday'];

@@ -164,9 +164,9 @@ export class SchedulePlannerComponent implements OnInit {
   }
 
  private openRotationMessage(): void {
-    if (window.innerWidth <= 600) {
-      this.snackBar.open('Gira el telefono horizontalmente para poder ver tu horario');
-    } else {
+    if (window.innerWidth <= 420) {
+      this.snackBar.open('Gira el telefono horizontalmente para poder ver tu horario', 'Cerrar');
+    }  else {
       this.snackBar.dismiss();
     }
  }
