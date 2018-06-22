@@ -1,9 +1,10 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, HostListener } from '@angular/core';
 import { CareersService } from '../../services/careers.service';
 import { Career } from '../../models/career';
 import { Level } from '../../models/level';
 import { Mateer, NewMateer } from '../../models/mateer';
 import { ScheduleRow } from '../../models/schedule-row';
+import {MatSnackBar} from '@angular/material';
 
 @Component({
   selector: 'app-schedule-planner',
@@ -20,7 +21,7 @@ export class SchedulePlannerComponent implements OnInit {
   schedule;
   scheduleSource;
 
-  constructor(private careersService: CareersService) {
+  constructor(private careersService: CareersService, public snackBar: MatSnackBar) {
     this.selectedGroups = [];
     this.cleanSchedule();
   }
@@ -28,7 +29,7 @@ export class SchedulePlannerComponent implements OnInit {
   ngOnInit() {
     this.careersService.getCareers().subscribe(response => {
       this.careers = response;
-
+      this.openRotationMessage();
     });
   }
 
@@ -156,4 +157,17 @@ export class SchedulePlannerComponent implements OnInit {
     }
     return row;
   }
+
+  @HostListener('window:resize', ['$event'])
+  onResize(event) {
+    this.openRotationMessage();
+  }
+
+ private openRotationMessage(): void {
+    if (window.innerWidth <= 600) {
+      this.snackBar.open('Gira el telefono horizontalmente para poder ver tu horario');
+    } else {
+      this.snackBar.dismiss();
+    }
+ }
 }

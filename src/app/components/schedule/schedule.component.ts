@@ -17,47 +17,49 @@ export class ScheduleComponent implements OnInit {
 
   ngOnInit() {
   }
-  public getBackground(elements: Array<any>) {
+  public getColor(elements: Array<any>) {
     let color: string;
+    let borderColor: string;
     let index: number;
     if (elements.length > 1) {
       color = '#fffff';
+      borderColor = 'red';
     } else if (elements.length === 1) {
       index = elements[0].index;
-      switch (index) {
+      switch (index % 10) {
         case 0:
-          color = '#CD6155';
+          color = '#FF8A80';
           break;
         case 1:
-          color = '#AF7AC5';
+          color = '#8C9EFF';
           break;
         case 2:
-          color = '#7FB3D5';
+          color = '#FF80AB';
           break;
         case 3:
-          color = '#48C9B0';
+          color = '#84FFFF';
           break;
         case 4:
-          color = '#7DCEA0';
+          color = '#80D8FF';
           break;
         case 5:
-          color = '#F4D03F';
+          color = '#A7FFEB';
           break;
         case 6:
-          color = '#EB984E';
+          color = '#B9F6CA';
           break;
         case 7:
-          color = '#AAB7B8';
+          color = '#FFFF8D';
           break;
         case 8:
-          color = '#5D6D7E';
+          color = '#FFD180';
           break;
         case 9:
-          color = '#5DADE2';
+          color = '#CCFF90';
           break;
       }
     }
-    return color;
+    return {'background': color, 'border-color': borderColor};
   }
 
   public getBorderColor(elements: Array<any>) {

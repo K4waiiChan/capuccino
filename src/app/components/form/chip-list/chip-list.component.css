@@ -1,6 +1,9 @@
 mat-chip-list {
 	display: inline-block;
 }
+mat-chip {
+	font-family: sans-serif;
+}
 @media only screen and (max-width: 600px) {
     mat-chip-list {
         display: unset;

@@ -5,4 +5,4 @@
   	<app-selection-list [options]="groups" [preselected]="selectedGroups" (valueSelected)="getSelectedGroups($event)"></app-selection-list><br>
   	<app-chip-list [elements]="selectedGroups" [removable]="true" [selected]="true" [word]= "'Grupo'" [width]="'100%'" (removedElement)="getSelectedGroups($event)"></app-chip-list>
 </form>
-<app-schedule [dataSource]="schedule"></app-schedule>
+<app-schedule [dataSource]="schedule"></app-schedule><br>

@@ -7,6 +7,7 @@ th.mat-header-cell{
 	text-align: center;
 	width: 14%;
 	font-size: 100%;
+	border: groove;
 }
 .hourBody{
 	text-align: left;
@@ -14,16 +15,14 @@ th.mat-header-cell{
 .hourHeader.mat-header-cell.cdk-column-hour.mat-column-hour.ng-star-inserted{
 	text-align: left;
 }
-td {
+td.mat-cell{
 	border: groove;
 	text-align: center;
+	border-bottom-style: groove;
 }
-th {
-	border: groove; 
-}	
 @media only screen and (max-width: 600px) {
     table {
+    	display: none;
     	margin-top: 3%;
-    	width: 200%;
     }
 }
